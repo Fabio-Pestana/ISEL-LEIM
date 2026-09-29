@@ -1,4 +1,4 @@
-# Matemática Discreta e Programação — Trabalhos de Sala de Aula
+# Tecnologia de Informação — Trabalhos Práticos
 
 Conjunto de **3 trabalhos práticos** desenvolvidos na unidade curricular **Tecnologia de Informação** (TI) de LEIM, no **Instituto Superior de Engenharia de Lisboa (ISEL)**, ano letivo 2022/23.
 
