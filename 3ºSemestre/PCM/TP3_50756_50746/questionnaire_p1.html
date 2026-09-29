@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Questionnaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/questionnaire.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <script src="scripts\questionnaire.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Caracterização</h1>
+        <br>
+        <form id="questionnaire-p1" action="questionnaire_p2.html">
+            <article id="Questao_Idade">
+                <h4>Qual a sua idade?</h4>
+                <input type="radio" name="idade" id="radless18" value="&lt;18" required>
+                <label for="radless18">&lt;18</label>
+                <input type="radio" name="idade" id="rad18" class="mx-2" value="18-24">
+                <label for="rad18">18-24</label>
+                <input type="radio" name="idade" id="rad25" class="mx-2" value="25-29">
+                <label for="rad25">25-29</label>
+                <input type="radio" name="idade" id="rad30" class="mx-2" value="30-34">
+                <label for="rad30">30-34</label>
+                <input type="radio" name="idade" id="rad35" class="mx-2" value="35-39">
+                <label for="rad35">35-39</label>
+                <input type="radio" name="idade" id="radgreater40" class="mx-2" value="&gt;=40">
+                <label for="radgreater40">&gt;=40</label>
+            </article> 
+            <br>
+            <article id="Questao_Genero">
+                <h4>Com que género se identifica?</h4>
+                <input type="radio" name="genero" id="rad_masculino" value="Masculino" required>
+                <label for="rad_masculino">Masculino</label>
+                <input type="radio" name="genero" id="rad_feminino" class="mx-2" value="Feminino">
+                <label for="rad_feminino">Feminino</label>
+                <input type="radio" name="genero" id="rad_nbinario" class="mx-2" value="nbinario">
+                <label for="rad_nbinario">Não binário</label>
+                <input type="radio" name="genero" id="rad_nresponde" class="mx-2" value="nresponde">
+                <label for="rad_nresponde">Prefiro não responder</label>
+            </article>
+            <br>
+            <article id="Questao_Freq_Internet">
+                <h4>Com que frequência usa a internet?</h4>
+                <input type="radio" name="frequencia" id="diariamente" value="Diariamente" required>
+                <label for="diariamente">Diariamente</label>
+                <input type="radio" name="frequencia" id="semana" class="mx-2" value="Semana">
+                <label for="semana">Algumas vezes por semana</label>
+                <input type="radio" name="frequencia" id="mes" class="mx-2" value="Mes">
+                <label for="mes">Algumas vezes por mês</label>
+                <input type="radio" name="frequencia" id="raramente" class="mx-2" value="Raramente">
+                <label for="raramente">Raramente</label>
+                <input type="radio" name="frequencia" id="nunca" class="mx-2" value="Nunca">
+                <label for="nunca">Nunca</label>
+            </article>
+            <br>
+            <article id="Questao_Browser">
+                <h4>Indique, por ordem de preferência, os Web Browsers que mais utiliza. Pode indicar até 3. <br> Utilize valores de 1 a 3, sendo 1 o mais preferido e 3 o menos.</h4>
+                
+                <div class="mt-2 mb-3">
+                    <label for="primeiro">O browser de preferência: </label>
+                    <select name="primeiro" id="primeiro" onchange="Q1_1browser(this)" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Brave">Brave</option>
+                        <option value="Vivaldi">Vivaldi</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Microsoft Edge">Microsoft Edge</option>
+                    </select>
+                </div>
+                <div class="mt-2 mb-3">
+                    <label for="segundo">O 2º browser preferido: </label>
+                    <select name="segundo" id="segundo" onchange="Q1_1browser(this)" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Brave">Brave</option>
+                        <option value="Vivaldi">Vivaldi</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Microsoft Edge">Microsoft Edge</option>
+                    </select>
+                </div>
+                <div class="mt-2 mb-3">
+                    <label for="terceiro">O 3º browser preferido: </label>
+                    <select name="terceiro" id="terceiro" onchange="Q1_1browser(this)" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Brave">Brave</option>
+                        <option value="Vivaldi">Vivaldi</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Microsoft Edge">Microsoft Edge</option>
+                    </select>
+                </div>
+            </article>
+            <br>
+            <article id="Outros_sites">
+                <h4>Conhece outros sites de organização e pesquisa de imagens?</h4>
+                <input type="radio" name="OutroSite" id="nao" value="nao" onclick="Q1_Sites()" required>
+                <label for="nao">Não</label>
+                <input type="radio" name="OutroSite" id="sim" class="mx-2" value="sim" onclick="Q1_Sites()">
+                <label for="sim">Sim.</label>
+                <label for="quaisOutrosSites" class="mx-2">Quais?</label>
+                <input type="text" name="TextOutroSite" id="quaisOutrosSites" disabled>
+            </article>
+            <br>
+            <button class="btn btn-primary mb-3" type="submit">
+                <i class="bi bi-arrow-right-circle"></i>
+                <span>NEXT</span>
+            </button>
+        </form>
+    </main>
+
+    <footer class="fixed-bottom bg-dark text-white">
+        <div class="d-flex justify-content-between">
+          <div class="text-capitalize mx-2">
+            &copy;2023 Copyright | Fábio Pestana & Miguel Alcobia
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

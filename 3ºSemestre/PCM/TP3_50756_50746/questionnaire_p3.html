@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Questionnaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/questionnaire.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <script src="scripts\questionnaire.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Avaliação Global</h1>
+        <br>
+        <br>
+        <form id="questionnaire-p3" action="index.html">
+            <article class="mb-3" id="AG-1">
+                <h4>Para cada par de adjetivos, selecione a opção que melhor descreve a sua experiência de utilização deste site.</h4>
+                <div class="mb-3  d-flex justify-content-between align-items-center">
+                    <span class="mx-2">Fantástico</span>
+                    <input type="range" name="Fantastico_Horrivel" class="form-range" min="0" max="6" step="1" id="Fantastico_Horrivel">
+                    <span class="mx-2">Horrível</span>
+                </div>
+                <br>
+                <div class="mb-3  d-flex justify-content-between align-items-center">
+                    <span class="mx-2">Estimulante</span>
+                    <input type="range" name="Estimulante_Aborrecida" class="form-range" min="0" max="6" step="1" id="Estimulante_Aborrecida">
+                    <span class="mx-2">Aborrecida</span>
+                </div>
+                <br>
+                <div class="mb-3  d-flex justify-content-between align-items-center">
+                    <span class="mx-2">Gratificante</span>
+                    <input type="range" name="Gratificante_Frustante" class="form-range" min="0" max="6" step="1" id="Gratificante_Frustante">
+                    <span class="mx-2">Frustante</span>
+                </div>
+                <br>
+                <div class="mb-3  d-flex justify-content-between align-items-center">
+                    <span class="mx-2">Fácil</span>
+                    <input type="range" name="Facil_Dificil" class="form-range" min="0" max="6" step="1" id="Facil_Dificil">
+                    <span class="mx-2">Díficil</span>
+                </div>
+            </article>
+            <br>
+            <article class="mb-3" id="AG-2">
+                <h4>Como classifica o resultado obtido pela pesquisa por Categoria (1 significa “Mau” e 5 significa “Excelente”)?</h4>
+                <span class="mx-2">Mau</span>
+                <input type="radio" name="Categoria" id="rad_Categoria1" value="1" required>
+                <label for="rad_Categoria1">1</label>
+                <input type="radio" name="Categoria" id="rad_Categoria2" class="mx-2" value="2">
+                <label for="rad_Categoria2">2</label>
+                <input type="radio" name="Categoria" id="rad_Categoria3" class="mx-2" value="3">
+                <label for="rad_Categoria3">3</label>
+                <input type="radio" name="Categoria" id="rad_Categoria4" class="mx-2" value="4">
+                <label for="rad_Categoria4">4</label>
+                <input type="radio" name="Categoria" id="rad_Categoria5" class="mx-2" value="5">
+                <label for="rad_Categoria5">5</label>
+                <span class="mx-2">Excelente</span>
+            </article>
+            <br>
+            <article class="mb-3" id="AG-3">
+                <h4>Como classifica o resultado obtido pela pesquisa por Cor (1 significa “Mau” e 5 significa “Excelente”)?</h4>
+                <span class="mx-2">Mau</span>
+                <input type="radio" name="Pesquisa_Cor" id="rad_Cor1" value="1" required>
+                <label for="rad_Cor1">1</label>
+                <input type="radio" name="Pesquisa_Cor" id="rad_Cor2" class="mx-2" value="2">
+                <label for="rad_Cor2">2</label>
+                <input type="radio" name="Pesquisa_Cor" id="rad_Cor3" class="mx-2" value="3">
+                <label for="rad_Cor3">3</label>
+                <input type="radio" name="Pesquisa_Cor" id="rad_Cor4" class="mx-2" value="4">
+                <label for="rad_Cor4">4</label>
+                <input type="radio" name="Pesquisa_Cor" id="rad_Cor5" class="mx-2" value="5">
+                <label for="rad_Cor5">5</label>
+                <span class="mx-2">Excelente</span>
+            </article>
+            <br>
+            <article class="mb-3" id="AG-4">
+                <h4>Como classifica o resultado obtido pela pesquisa por Imagens Semelhantes (1 significa “Mau” e 5 significa “Excelente”)?</h4>
+                <span class="mx-2">Mau</span>
+                <input type="radio" name="Pesquisa_Imagens" id="rad_Imagens1" value="1" required>
+                <label for="rad_Imagens1">1</label>
+                <input type="radio" name="Pesquisa_Imagens" id="rad_Imagens2" class="mx-2" value="2">
+                <label for="rad_Imagens2">2</label>
+                <input type="radio" name="Pesquisa_Imagens" id="rad_Imagens3" class="mx-2" value="3">
+                <label for="rad_Imagens3">3</label>
+                <input type="radio" name="Pesquisa_Imagens" id="rad_Imagens4" class="mx-2" value="4">
+                <label for="rad_Imagens4">4</label>
+                <input type="radio" name="Pesquisa_Imagens" id="rad_Imagens5" class="mx-2" value="5">
+                <label for="rad_Imagens5">5</label>
+                <span class="mx-2">Excelente</span>
+            </article>
+            <br>
+            <article class="mb-3" id="AG-5">
+                <h4>Como classifica a utilidade da pesquisa por Imagens Semelhantes (1 significa “Mau” e 5 significa “Excelente”)?</h4>
+                <span class="mx-2">Mau</span>
+                <input type="radio" name="Pesquisa_Utilidade" id="rad_Utilidade1" value="1" required>
+                <label for="rad_Utilidade1">1</label>
+                <input type="radio" name="Pesquisa_Utilidade" id="rad_Utilidade2" class="mx-2" value="2">
+                <label for="rad_Utilidade2">2</label>
+                <input type="radio" name="Pesquisa_Utilidade" id="rad_Utilidade3" class="mx-2" value="3">
+                <label for="rad_Utilidade3">3</label>
+                <input type="radio" name="Pesquisa_Utilidade" id="rad_Utilidade4" class="mx-2" value="4">
+                <label for="rad_Utilidade4">4</label>
+                <input type="radio" name="Pesquisa_Utilidade" id="rad_Utilidade5" class="mx-2" value="5">
+                <label for="rad_Utilidade5">5</label>
+                <span class="mx-2">Excelente</span>
+            </article>
+            <br>
+            <article class="mb-3" id="AG-6">
+                <h4>Como classifica o sistema de navegação do site (1 significa “Mau” e 5 significa “Excelente”)?</h4>
+                <span class="mx-2">Mau</span>
+                <input type="radio" name="Sistema" id="rad_Sistema1" value="1" required>
+                <label for="rad_Sistema1">1</label>
+                <input type="radio" name="Sistema" id="rad_Sistema2" class="mx-2" value="2">
+                <label for="rad_Sistema2">2</label>
+                <input type="radio" name="Sistema" id="rad_Sistema3" class="mx-2" value="3">
+                <label for="rad_Sistema3">3</label>
+                <input type="radio" name="Sistema" id="rad_Sistema4" class="mx-2" value="4">
+                <label for="rad_Sistema4">4</label>
+                <input type="radio" name="Sistema" id="rad_Sistema5" class="mx-2" value="5">
+                <label for="rad_Sistema5">5</label>
+                <span class="mx-2">Excelente</span>
+            </article>
+            <br>
+            <article class="mb-3" id="AG-7">
+                <h4>Como classifica o design do site (1 significa “Mau” e 5 significa “Excelente”)?</h4>
+                <span class="mx-2">Mau</span>
+                <input type="radio" name="Classf_Design" id="rad_Design1" value="1" required>
+                <label for="rad_Design1">1</label>
+                <input type="radio" name="Classf_Design" id="rad_Design2" class="mx-2" value="2">
+                <label for="rad_Design2">2</label>
+                <input type="radio" name="Classf_Design" id="rad_Design3" class="mx-2" value="3">
+                <label for="rad_Design3">3</label>
+                <input type="radio" name="Classf_Design" id="rad_Design4" class="mx-2" value="4">
+                <label for="rad_Design4">4</label>
+                <input type="radio" name="Classf_Design" id="rad_Design5" class="mx-2" value="5">
+                <label for="rad_Design5">5</label>
+                <span class="mx-2">Excelente</span>
+            </article>
+            <button class="btn btn-primary mb-3" type="submit">
+                <i class="bi bi-house-fill"></i>
+                <span>FINISH</span>
+            </button>
+        </form>
+        
+    </main>
+
+    <footer class="bg-dark text-white">
+        <div class="d-flex justify-content-between">
+          <div class="text-capitalize mx-2">
+            &copy;2023 Copyright | Fábio Pestana & Miguel Alcobia
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

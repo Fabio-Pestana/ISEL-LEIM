@@ -1,0 +1,12 @@
+body{
+    font-family: 'Kalam', sans-serif;
+}
+
+#toolbar,
+#canvas {
+    cursor:crosshair;
+}
+
+#buttons{
+    justify-content: center;
+}

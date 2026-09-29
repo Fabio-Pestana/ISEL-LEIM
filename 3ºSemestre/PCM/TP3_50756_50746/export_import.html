@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Questionnaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="scripts/utilities.js" defer></script>
+    <script src="scripts/export_import.js" defer></script>
+    <link rel="stylesheet" href="styles/questionnaire.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Export/Import Data</h1>
+        <div class="mb-3">
+            <p class="fw-bold">Click the following button to export the data stored in the browser's local storage:</p>
+            <button class="btn btn-success" id="exportButton">
+                <i class="bi bi-database-fill-down"></i>
+                Export
+            </button>
+        </div>
+        <div class="mb-3">
+            <label for="fileImport" class="form-label fw-bold">
+                Select a JSON file to import into the browser's local storage:
+            </label>
+            <input class="form-control" type="file" id="fileImport">
+            <div class="alert alert-danger fw-bold" role="alert">
+                NOTE: This will replace all currently stored data.
+            </div>
+            <a class="btn btn-secondary" href="index.html">
+                <i class="bi bi-house-fill"></i>
+                <span>Home</span>
+            </a>
+        </div>
+    </main>
+
+    <footer class="fixed-bottom bg-dark text-white">
+        <div class="d-flex justify-content-between">
+          <div class="text-capitalize mx-2">
+            &copy;2023 Copyright | ISEL-PCM
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

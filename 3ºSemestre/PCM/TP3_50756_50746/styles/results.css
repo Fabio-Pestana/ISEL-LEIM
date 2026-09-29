@@ -1,0 +1,25 @@
+body{
+    font-family: 'Acme', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#caracterizacaoGenero {
+    text-align: center; 
+}
+
+#avaliacaoGlobal {
+    text-align: center; 
+}
+
+
+

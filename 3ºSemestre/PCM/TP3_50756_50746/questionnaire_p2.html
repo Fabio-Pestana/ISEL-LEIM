@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Questionnaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/questionnaire.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <script src="scripts\questionnaire.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Tarefas</h1>
+        <p>Por favor, realiza as seguintes tarefas e descreva-nos os resultados obtidos.</p>
+        <br>
+        <form id="questionnaire-p2" action="questionnaire_p3.html">
+            <article id="T1_Explorar">
+                <h4>Tarefa 1 - Explorar</h4>
+                <div class="mb-3">
+                    <label for="tarefa_1_Textarea" class="form-label">Explore o site livremente e indique se encontrou algum erro ou se sentiu alguma dificuldade em perceber a funcionalidade das opções.</label>
+                    <textarea name="Explorar" class="form-control" id="tarefa_1_Textarea" rows="3"></textarea>
+                </div> 
+            </article> 
+            <br>
+            <article id="T2_PesquisaCategorias">
+                <h4>Tarefa 2 - Pesquisa Categorias</h4>
+                <div class="mb-3">
+                    <label for="tarefa_2_Textarea" class="form-label">Escolha a opção de pesquisa por palavra-chave, selecione uma categoria à sua escolha e observe os resultados.<br>Que dificuldades encontrou?</label>
+                    <textarea name="Categorias" class="form-control" id="tarefa_2_Textarea" rows="3"></textarea>
+                </div> 
+            </article>
+            <br>
+            <article id="T3_PesquisaCor">
+                <h4>Tarefa 3 - Pesquisa Cor</h4>
+                <div class="mb-3">
+                    <label for="tarefa_3_Textarea" class="form-label">Escolha a opção de pesquisa por cor dominante, selecione uma cor à sua escolha e observe os resultados.<br>Que dificuldades encontrou?</label>
+                    <textarea name="Cor" class="form-control" id="tarefa_3_Textarea" rows="3"></textarea>
+                </div>
+            </article>
+            <br>
+            <article id="T4_PesquisaImgSemelahntes">
+                <h4>Tarefa 4 - Pesquisa Imagens Semelhantes</h4>
+                <div class="mb-3">
+                    <label for="tarefa_4_Textarea" class="form-label">Escolha a opção de pesquisa por imagens semelhantes, selecione uma imagem à sua escolha e observe os resultados.<br>Que dificuldades encontrou?</label>
+                    <textarea name="Imgs_Semelhantes" class="form-control" id="tarefa_4_Textarea" rows="3"></textarea>
+                </div>
+            </article>
+            <br>
+            <article id="CompTiposPesquisa">
+                <h4>Comparação entre tipos de Pesquisa</h4>
+                <div class="mb-3">
+                    <label for="tarefa_5_Textarea" class="form-label">Qual o tipo de pesquisa que acha mais adequado e porquê?</label>
+                    <textarea name="Compare_Search" class="form-control" id="tarefa_5_Textarea" rows="3"></textarea>
+                </div>
+            </article>
+            <button class="btn btn-primary mb-3" type="submit">
+                <i class="bi bi-arrow-right-circle"></i>
+                <span>NEXT</span>
+            </button>
+        </form>
+    </main>
+
+    <footer class="bg-dark text-white">
+        <div class="d-flex justify-content-between">
+          <div class="text-capitalize mx-2">
+            &copy;2023 Copyright | Fábio Pestana & Miguel Alcobia
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
