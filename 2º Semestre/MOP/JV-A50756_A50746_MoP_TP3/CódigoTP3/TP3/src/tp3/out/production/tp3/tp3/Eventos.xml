@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Eventos>
+    <Festival>
+        <Nome>Músicas do Mundo</Nome>
+        <Eventos>
+            <Espetaculo Localidade="Sines" Nome="Abertura do Festival Músicas do Mundo" numBilhetes="10000">
+                <Artistas>Júlio Isidro</Artistas>
+                <Artistas>Ana Moura</Artistas>
+            </Espetaculo>
+            <Festival>
+                <Nome>Música Cubana</Nome>
+                <Eventos>
+                    <Espetaculo Localidade="Sines" Nome="Pablo Milanés" numBilhetes="500">
+                        <Artistas>Pablo Milanés</Artistas>
+                    </Espetaculo>
+                    <Espetaculo Localidade="Sines" Nome="Compay Segundo" numBilhetes="400">
+                        <Artistas>Compay Segundo</Artistas>
+                    </Espetaculo>
+                    <Espetaculo Localidade="Sines" Nome="Silvio Rodríguez" numBilhetes="400">
+                        <Artistas>Silvio Rodríguez</Artistas>
+                    </Espetaculo>
+                </Eventos>
+            </Festival>
+            <Festival>
+                <Nome>African Music Awards</Nome>
+                <Eventos>
+                    <Espetaculo Localidade="Porto Côvo" Nome="Miriam Makeba" numBilhetes="200">
+                        <Artistas>Miriam Makeba</Artistas>
+                    </Espetaculo>
+                    <Espetaculo Localidade="Sines" Nome="Bonga" numBilhetes="400">
+                        <Artistas>Bonga</Artistas>
+                    </Espetaculo>
+                    <Espetaculo Localidade="Sines" Nome="Yuri da Cunha" numBilhetes="400">
+                        <Artistas>Yuri da Cunha</Artistas>
+                    </Espetaculo>
+                </Eventos>
+            </Festival>
+            <Festival>
+                <Nome>Bollywood Music Festival</Nome>
+                <Eventos>
+                    <Espetaculo Localidade="Sines" Nome="Suna Hai" numBilhetes="500">
+                        <Artistas>Suna Hai</Artistas>
+                    </Espetaculo>
+                    <Espetaculo Localidade="Sines" Nome="Rait Zara" numBilhetes="400">
+                        <Artistas>Rait Zara</Artistas>
+                    </Espetaculo>
+                </Eventos>
+            </Festival>
+        </Eventos>
+    </Festival>
+</Eventos>

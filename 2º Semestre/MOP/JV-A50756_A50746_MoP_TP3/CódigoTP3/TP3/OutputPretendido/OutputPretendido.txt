@@ -1,0 +1,11 @@
+Root element :BaseDados
+Festival Músicas do Mundo com 12300 bilhetes e com os artistas  [Júlio Isidro, Ana Moura, Pablo Milanés, Compay Segundo, Silvio Rodríguez, Miriam Makeba, Bonga, Yuri da Cunha] 
+   Abertura do Festival Músicas do Mundo com 10000 bilhetes e com os artistas  [Júlio Isidro, Ana Moura]  em Sines
+   Festival Música Cubana com 1300 bilhetes e com os artistas  [Pablo Milanés, Compay Segundo, Silvio Rodríguez] 
+      Pablo Milanés com 500 bilhetes e com os artistas  [Pablo Milanés]  em Sines
+      Compay Segundo com 400 bilhetes e com os artistas  [Compay Segundo]  em Sines
+      Silvio Rodríguez com 400 bilhetes e com os artistas  [Silvio Rodríguez]  em Sines
+   Festival African Music Awards com 1000 bilhetes e com os artistas  [Miriam Makeba, Bonga, Yuri da Cunha] 
+      Miriam Makeba com 200 bilhetes e com os artistas  [Miriam Makeba]  em Porto Côvo
+      Bonga com 400 bilhetes e com os artistas  [Bonga]  em Sines
+      Yuri da Cunha com 400 bilhetes e com os artistas  [Yuri da Cunha]  em Sines

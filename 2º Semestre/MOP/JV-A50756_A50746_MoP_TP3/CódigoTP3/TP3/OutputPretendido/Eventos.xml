@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Eventos>
+    <Festival>
+        <Nome>Músicas do Mundo</Nome>
+        <Eventos>
+            <Espetaculo numBilhetes="10000">
+                <Nome>Abertura do Festival Músicas do Mundo</Nome>
+                <Artistas>
+                    <Artista>Júlio Isidro</Artista>
+                    <Artista>Ana Moura</Artista>
+                </Artistas>
+                <Localidade>Sines</Localidade>
+            </Espetaculo>
+            <Festival>
+                <Nome>Música Cubana</Nome>
+                <Eventos>
+                    <Espetaculo numBilhetes="500">
+                        <Nome>Pablo Milanés</Nome>
+                        <Artistas>
+                            <Artista>Pablo Milanés</Artista>
+                        </Artistas>
+                        <Localidade>Sines</Localidade>
+                    </Espetaculo>
+                    <Espetaculo numBilhetes="400">
+                        <Nome>Compay Segundo</Nome>
+                        <Artistas>
+                            <Artista>Compay Segundo</Artista>
+                        </Artistas>
+                        <Localidade>Sines</Localidade>
+                    </Espetaculo>
+                    <Espetaculo numBilhetes="400">
+                        <Nome>Silvio Rodríguez</Nome>
+                        <Artistas>
+                            <Artista>Silvio Rodríguez</Artista>
+                        </Artistas>
+                        <Localidade>Sines</Localidade>
+                    </Espetaculo>
+                </Eventos>
+            </Festival>
+            <Festival>
+                <Nome>African Music Awards</Nome>
+                <Eventos>
+                    <Espetaculo numBilhetes="200">
+                        <Nome>Miriam Makeba</Nome>
+                        <Artistas>
+                            <Artista>Miriam Makeba</Artista>
+                        </Artistas>
+                        <Localidade>Porto Côvo</Localidade>
+                    </Espetaculo>
+                    <Espetaculo numBilhetes="400">
+                        <Nome>Bonga</Nome>
+                        <Artistas>
+                            <Artista>Bonga</Artista>
+                        </Artistas>
+                        <Localidade>Sines</Localidade>
+                    </Espetaculo>
+                    <Espetaculo numBilhetes="400">
+                        <Nome>Yuri da Cunha</Nome>
+                        <Artistas>
+                            <Artista>Yuri da Cunha</Artista>
+                        </Artistas>
+                        <Localidade>Sines</Localidade>
+                    </Espetaculo>
+                </Eventos>
+            </Festival>
+            <Festival>
+                <Nome>Bollywood Music Festival</Nome>
+                <Eventos>
+                    <Espetaculo numBilhetes="500">
+                        <Nome>Suna Hai</Nome>
+                        <Artistas>
+                            <Artista>Suna Hai</Artista>
+                        </Artistas>
+                        <Localidade>Sines</Localidade>
+                    </Espetaculo>
+                    <Espetaculo numBilhetes="400">
+                        <Nome>Rait Zara</Nome>
+                        <Artistas>
+                            <Artista>Rait Zara</Artista>
+                        </Artistas>
+                        <Localidade>Sines</Localidade>
+                    </Espetaculo>
+                </Eventos>
+            </Festival>
+        </Eventos>
+    </Festival>
+</Eventos>
