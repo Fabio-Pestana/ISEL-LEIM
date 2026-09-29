@@ -1,0 +1,25 @@
+c1 -> Colecção Primavera, editores [João Mendonça, Manuel Alfazema], 2 livros, 610p 23.8
+Colecção Primavera, editores [João Mendonça, Manuel Alfazema], 2 livros, 610p 23.8
+  Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade]
+  Viagem aos Pirinéus, 270p 11.5 [João Mendonça, Júlio Pomar]
+
+adição novamente de Viagem aos Pirinéus a c1 -> false
+c1 -> Colecção Primavera, editores [João Mendonça, Manuel Alfazema], 2 livros, 610p 23.8
+
+Autores editores of c1 -> [João Mendonça, Manuel Alfazema, Mário Andrade, Júlio Pomar]
+
+Nº de obras de João Mendonça -> 3
+
+Livros de João Mendonça -> [Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade], Viagem aos Pirinéus, 270p 11.5 [João Mendonça, Júlio Pomar]]
+
+Remoção de Viagem aos Himalaias -> Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade]
+Colecção Primavera, editores [João Mendonça, Manuel Alfazema], 1 livros, 270p 11.5
+  Viagem aos Pirinéus, 270p 11.5 [João Mendonça, Júlio Pomar]
+
+c2:
+Colecção Primavera, editores [João Mendonça, Manuel Alfazema], 0 livros, 0p 0.0
+c1.equals(c2) -> true
+
+c3:
+Colecção Primavera, editores [João Mendonça], 0 livros, 0p 0.0
+c1.equals(c3) -> false

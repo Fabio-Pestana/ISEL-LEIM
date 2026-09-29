@@ -1,0 +1,59 @@
+c1 -> Coleção Primavera, editores [João Mendonça, Manuel Alfazema], 2 livros, 610p, 23.8€ 
+	Viagem aos Himalaias, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+
+Coleção Primavera, editores [João Mendonça, Manuel Alfazema], 2 livros, 610p, 23.8€ 
+	Viagem aos Himalaias, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+
+
+adição novamente de Viagem aos Pirinéus a c1 -> false
+c1 -> Coleção Primavera, editores [João Mendonça, Manuel Alfazema], 2 livros, 610p, 23.8€ 
+	Viagem aos Himalaias, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+
+
+cx2 -> Coleção Outono, editores [João Mendonça, Manuel Antunes], 2 livros, 610p, 23.8€ 
+	Viagem aos Himalaias 2, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus 2, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+
+Coleção Outono, editores [João Mendonça, Manuel Antunes], 2 livros, 610p, 23.8€ 
+	Viagem aos Himalaias 2, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus 2, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+
+
+c1 após adição da colecção cx2 -> Coleção Primavera, editores [João Mendonça, Manuel Alfazema], 2 livros, 1220p, 47.6€ 
+	Viagem aos Himalaias, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+	Coleção Outono, editores [João Mendonça, Manuel Antunes], 2 livros, 610p, 23.8€ 
+	Viagem aos Himalaias 2, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus 2, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+
+
+Coleção Primavera, editores [João Mendonça, Manuel Alfazema], 2 livros, 1220p, 47.6€ 
+	Viagem aos Himalaias, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+	Coleção Outono, editores [João Mendonça, Manuel Antunes], 2 livros, 610p, 23.8€ 
+	Viagem aos Himalaias 2, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus 2, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+
+
+
+Autores editores of c1 -> [João Mendonça, Manuel Alfazema, Mário Andrade, Júlio Pomar, Manuel Antunes]
+
+Nº de obras de João Mendonça -> 6
+
+Livros de João Mendonça -> [Viagem aos Himalaias, 340p, 12.3€ [João Mendonça, Mário Andrade], Viagem aos Pirinéus, 270p, 11.5€ [João Mendonça, Júlio Pomar], Viagem aos Himalaias 2, 340p, 12.3€ [João Mendonça, Mário Andrade], Viagem aos Pirinéus 2, 270p, 11.5€ [João Mendonça, Júlio Pomar]]
+
+Remoção de Viagem aos Himalaias (remAllobra)-> true
+Coleção Primavera, editores [João Mendonça, Manuel Alfazema], 1 livros, 880p, 35.3€ 
+	Viagem aos Pirinéus, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+	Coleção Outono, editores [João Mendonça, Manuel Antunes], 2 livros, 610p, 23.8€ 
+	Viagem aos Himalaias 2, 340p, 12.3€ [João Mendonça, Mário Andrade]
+	Viagem aos Pirinéus 2, 270p, 11.5€ [João Mendonça, Júlio Pomar]
+
+
+
+equals de c1 com c1 -> true
+equals de c1 com cx2 -> false
+

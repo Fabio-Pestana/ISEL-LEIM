@@ -1,0 +1,5 @@
+A50756-Fábio Pestana
+A50746- Miguel Alcobia
+
+No Coleccao do pack 3 tivemos alguns problemas no output, acreditamos que a maioria das funções e metodos estão bem implementados, mas não conseguimos dar com o erro.
+Falaremos com o professor na validação do trabalho, mas queriamos avisá-lo desses detalhes.

@@ -1,0 +1,33 @@
+Livro -> Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade]
+Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade]
+-> Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade]
+
+Livro com o autor Mário Andrade? -> true
+Livro com o autor Mário Zambujal? -> false
+
+Livro: Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade]
+equals Livro: Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade]
+ -> true
+Livro: Viagem aos Himalaias, 340p 12.3 [João Mendonça, Mário Andrade]
+equals Livro: Viagem aos Himalaias, 100p 10.3 [Vitor Záspara]
+ -> true
+
+Livro lx1:
+java.lang.IllegalArgumentException: O nº de páginas não pode ser negativo
+	at tps.tp2.pack2Livros.Livro.<init>(Livro.java:42)
+	at tps.tp2.pack2Livros.Livro.main(Livro.java:250)
+
+Livro lx2:
+java.lang.IllegalArgumentException: O preço não pode ser negativo
+	at tps.tp2.pack2Livros.Livro.<init>(Livro.java:48)
+	at tps.tp2.pack2Livros.Livro.main(Livro.java:261)
+
+Livro lx3:
+java.lang.IllegalArgumentException: O titulo tem de ter pelo menos um caracter
+     at tps.tp2.pack2Livros.Livro.<init>(Livro.java:36)
+     at tps.tp2.pack2Livros.Livro.main(Livro.java:272)
+
+Livro lx4:
+java.lang.IllegalArgumentException: O array de autores contém autores repetidos
+     at tps.tp2.pack2Livros.Livro.<init>(Livro.java:68)
+     at tps.tp2.pack2Livros.Livro.main(Livro.java:283)

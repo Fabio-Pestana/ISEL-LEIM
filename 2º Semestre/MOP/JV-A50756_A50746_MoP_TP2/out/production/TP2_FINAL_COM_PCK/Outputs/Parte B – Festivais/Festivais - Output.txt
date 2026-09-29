@@ -1,0 +1,109 @@
+Rock in Rio
+	Black Eyed Peas com 4000 e com os artista(s) , Will.I.Am, Fergie, Taboo, em Lisboa
+ 
+	UB40 com 5000 e com os artista(s) , Ali Campbell, Earl Falconer, Brian Travers, em Rio de Janeiro
+ 
+	Xutos e Pontapés com 3500 e com os artista(s) , Zé Pedro, Tim, Joao, Kalú, em Lisboa
+ 
+
+Numero de bilhetes do Rock in Rio: 12500
+Numero de atuações do Joao: 1
+Profundidade do festival Rock in Rio: 0
+Rouling Loud
+	The Scotts com 4000 e com os artista(s) , Travis, Scott, em Portimao
+ 
+	Rockstar com 3500 e com os artista(s) , Da Baby, Lil Uzi Vert, em Porto
+ 
+	Watch this com 4000 e com os artista(s) , Lil Uzi Vert, Polo G, Joao, em Lisboa
+ 
+
+Numero de bilhetes do Rolling Loud: 11500
+Numero de atuações do Lil Uzi Vert: 2
+Profundidade do festival Rolling Loud: 0
+Rock in Rio
+	Black Eyed Peas com 4000 e com os artista(s) , Will.I.Am, Fergie, Taboo, em Lisboa
+ 
+	UB40 com 5000 e com os artista(s) , Ali Campbell, Earl Falconer, Brian Travers, em Rio de Janeiro
+ 
+	Xutos e Pontapés com 3500 e com os artista(s) , Zé Pedro, Tim, Joao, Kalú, em Lisboa
+ 
+	Rouling Loud
+	The Scotts com 4000 e com os artista(s) , Travis, Scott, em Portimao
+ 
+	Rockstar com 3500 e com os artista(s) , Da Baby, Lil Uzi Vert, em Porto
+ 
+	Watch this com 4000 e com os artista(s) , Lil Uzi Vert, Polo G, Joao, em Lisboa
+ 
+
+ 
+
+Profundidade do festival Rock in Rio: 1
+Rock in Rio
+	Black Eyed Peas com 4000 e com os artista(s) , Will.I.Am, Fergie, Taboo, em Lisboa
+ 
+	UB40 com 5000 e com os artista(s) , Ali Campbell, Earl Falconer, Brian Travers, em Rio de Janeiro
+ 
+	Xutos e Pontapés com 3500 e com os artista(s) , Zé Pedro, Tim, Joao, Kalú, em Lisboa
+ 
+	Rouling Loud
+	The Scotts com 4000 e com os artista(s) , Travis, Scott, em Portimao
+ 
+	Rockstar com 3500 e com os artista(s) , Da Baby, Lil Uzi Vert, em Porto
+ 
+	Watch this com 4000 e com os artista(s) , Lil Uzi Vert, Polo G, Joao, em Lisboa
+ 
+
+ 
+	Disney
+	The Incredibles com 10000 e com os artista(s) , Mr.Incredible, Ice, Elastigirl, em Orlando
+ 
+	Cars com 7500 e com os artista(s) , Lightning McQueen, The King, Chick Hicks, em Orlando
+ 
+
+ 
+
+Numero de bilhetes do Rock in Rio: 41500
+Numero de atuações do Joao: 2
+Profundidade do festival Rock in Rio: 2
+delete evento Watch this--->true
+delete evento Watch--->false
+Rock in Rio
+	Black Eyed Peas com 4000 e com os artista(s) , Will.I.Am, Fergie, Taboo, em Lisboa
+ 
+	UB40 com 5000 e com os artista(s) , Ali Campbell, Earl Falconer, Brian Travers, em Rio de Janeiro
+ 
+	Xutos e Pontapés com 3500 e com os artista(s) , Zé Pedro, Tim, Joao, Kalú, em Lisboa
+ 
+	Rouling Loud
+	The Scotts com 4000 e com os artista(s) , Travis, Scott, em Portimao
+ 
+	Rockstar com 3500 e com os artista(s) , Da Baby, Lil Uzi Vert, em Porto
+ 
+
+ 
+	Disney
+	The Incredibles com 10000 e com os artista(s) , Mr.Incredible, Ice, Elastigirl, em Orlando
+ 
+	Cars com 7500 e com os artista(s) , Lightning McQueen, The King, Chick Hicks, em Orlando
+ 
+
+ 
+
+delete festival Rouling Loud--->true
+Rock in Rio
+	Black Eyed Peas com 4000 e com os artista(s) , Will.I.Am, Fergie, Taboo, em Lisboa
+ 
+	UB40 com 5000 e com os artista(s) , Ali Campbell, Earl Falconer, Brian Travers, em Rio de Janeiro
+ 
+	Xutos e Pontapés com 3500 e com os artista(s) , Zé Pedro, Tim, Joao, Kalú, em Lisboa
+ 
+	Disney
+	The Incredibles com 10000 e com os artista(s) , Mr.Incredible, Ice, Elastigirl, em Orlando
+ 
+	Cars com 7500 e com os artista(s) , Lightning McQueen, The King, Chick Hicks, em Orlando
+ 
+
+ 
+
+Profundidade do festival Rock in Rio: 1
+Profundidade do festival Disney: 0

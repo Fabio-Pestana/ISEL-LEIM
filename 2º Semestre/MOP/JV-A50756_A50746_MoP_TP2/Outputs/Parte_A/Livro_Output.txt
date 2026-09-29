@@ -1,0 +1,50 @@
+Livro -> O Hobbit, 310p, 11.99€ [JRR Tolkien]
+O Hobbit, 310p, 11.99€ [JRR Tolkien]
+-> O Hobbit, 310p, 11.99€ [JRR Tolkien]
+
+Livro -> Frankenstein, 280p, 7.99€ [Mary Shelley]
+Frankenstein, 280p, 7.99€ [Mary Shelley]
+-> Frankenstein, 280p, 7.99€ [Mary Shelley]
+
+Livro -> Os Maias, 925p, 9.99€ [Eça de Queiroz]
+Os Maias, 925p, 9.99€ [Eça de Queiroz]
+-> Os Maias, 925p, 9.99€ [Eça de Queiroz]
+
+Livro -> Eu, Robô, 253p, 13.99€ [Isaac Asimov]
+Eu, Robô, 253p, 13.99€ [Isaac Asimov]
+-> Eu, Robô, 253p, 13.99€ [Isaac Asimov]
+
+Livro -> À boleia pela galáxia, 450p, 15.59€ [Douglas Adams]
+À boleia pela galáxia, 450p, 15.59€ [Douglas Adams]
+-> À boleia pela galáxia, 450p, 15.59€ [Douglas Adams]
+
+Livro -> Os Três Mosqueteiros, 683p, 19.59€ [Alexandre Dumas]
+Os Três Mosqueteiros, 683p, 19.59€ [Alexandre Dumas]
+-> Os Três Mosqueteiros, 683p, 19.59€ [Alexandre Dumas]
+
+Livro -> Harry Potter e a Pedra Filosfal, 380p, 13.3€ [JK Rowling]
+Harry Potter e a Pedra Filosfal, 380p, 13.3€ [JK Rowling]
+-> Harry Potter e a Pedra Filosfal, 380p, 13.3€ [JK Rowling]
+
+Livro -> O Conde de Monte Cristo - Parte 1, 650p, 19.59€ [Alexandre Dumas]
+O Conde de Monte Cristo - Parte 1, 650p, 19.59€ [Alexandre Dumas]
+-> O Conde de Monte Cristo - Parte 1, 650p, 19.59€ [Alexandre Dumas]
+
+Livro -> O Conde de Monte Cristo - Parte 2, 730p, 19.59€ [Alexandre Dumas]
+O Conde de Monte Cristo - Parte 2, 730p, 19.59€ [Alexandre Dumas]
+-> O Conde de Monte Cristo - Parte 2, 730p, 19.59€ [Alexandre Dumas]
+
+Livro -> O Silmarillion, 310p, 11.99€ [JRR Tolkien, Christopher Tolkien]
+O Silmarillion, 310p, 11.99€ [JRR Tolkien, Christopher Tolkien]
+-> O Silmarillion, 310p, 11.99€ [JRR Tolkien, Christopher Tolkien]
+
+Livro com o autor JRR Tolkien? -> true
+Livro com o autor Sophia de Mello Breyner Andersen? -> false
+Livro com o autor Christopher Tolkien? -> true
+
+Livro: O Hobbit, 310p, 11.99€ [JRR Tolkien]
+equals Livro: O Hobbit, 310p, 11.99€ [JRR Tolkien]
+ -> true
+Livro: O Conde de Monte Cristo - Parte 2, 730p, 19.59€ [Alexandre Dumas]
+equals Livro: O Silmarillion, 310p, 11.99€ [JRR Tolkien, Christopher Tolkien]
+ -> false

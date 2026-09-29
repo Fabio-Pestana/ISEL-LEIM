@@ -1,0 +1,7 @@
+Artista Baltazar adicionado com exito -->true
+Artista Mogli adicionado com exito -->true
+Artista null adicionado com exito -->false
+Artista A adicionado com exito -->false
+Baltazar numero de atuacoes ---> 1
+Olaf numero de atuacoes ---> 0
+Noite Mágica com 200 e com os artista(s) , Baltazar, Mogli, em Diney, Paris
