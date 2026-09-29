@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 11:24:37 "/>
+        <attribute name="created" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjEwOjU1OjA3ICI7MjczOA=="/>
+        <attribute name="edited" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjExOjI0OjM3ICI7MjsyODQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="escolha, ut" type="String" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="random (3)"/>
+            <if expression="n==0">
+                <then>
+                    <assign variable="escolha" expression="&quot;papel&quot;"/>
+                </then>
+                <else>
+                    <if expression="n==1">
+                        <then>
+                            <assign variable="escolha" expression="&quot;pedra&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="escolha" expression="&quot;tesoura&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Pedra, papel ou tesoura?&quot;" newline="True"/>
+            <input variable="ut"/>
+            <if expression="ut == &quot;papel&quot; || ut == &quot;Papel&quot;">
+                <then>
+                    <if expression="escolha == &quot;pedra&quot;">
+                        <then>
+                            <output expression="&quot;Eu escolhi pedra so U win&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="escolha == &quot;tesoura&quot;">
+                                <then>
+                                    <output expression="&quot;Eu escolhi tesoura so U lost&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Eu escolhi tesoura soo we drew&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="ut == &quot;pedra&quot; || ut== &quot;Pedra&quot;">
+                        <then>
+                            <if expression="escolha == &quot;tesoura&quot;">
+                                <then>
+                                    <output expression="&quot;Eu escolhi tesoura so U win&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="escolha == &quot;papel&quot;">
+                                        <then>
+                                            <output expression="&quot;Eu escolhi papel so U lost&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Eu escolhi pedra so we drew&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="ut == &quot;tesoura&quot; || ut== &quot;Tesoura&quot;">
+                                <then>
+                                    <if expression="escolha == &quot;papel&quot;">
+                                        <then>
+                                            <output expression="&quot;Eu escolhi papel so U win&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="escolha == &quot;pedra&quot;">
+                                                <then>
+                                                    <output expression="&quot;Eu escolhi pedra so U lost&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Eu escolhi pedra so we drew&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else>
+                                    <output expression="&quot;valor invalido&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

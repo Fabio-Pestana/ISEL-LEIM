@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-20 09:26:02 "/>
+        <attribute name="created" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMjA7IjA4OjI5OjA5ICI7Mjc0MQ=="/>
+        <attribute name="edited" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMjA7IjA5OjI2OjAyICI7MTsyODQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nomeO, PrestO" type="String" array="False" size=""/>
+            <declare name="Comp, i, L1, digitos, Lr" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduza o seu nome: &quot;" newline="True"/>
+            <input variable="nomeO"/>
+            <assign variable="Comp" expression="len(nomeO)-1"/>
+            <assign variable="Presto" expression="&quot;&quot;"/>
+            <assign variable="L1" expression="ToCode(char(nomeO, 0))"/>
+            <if expression="L1&gt;64 and L1&lt;91">
+                <then>
+                    <assign variable="Presto" expression="Presto &amp; tochar(L1)"/>
+                </then>
+                <else>
+                    <assign variable="L1" expression="L1-32"/>
+                    <assign variable="Presto" expression="Presto &amp; tochar(L1)"/>
+                </else>
+            </if>
+            <for variable="i" start="1" end="Comp" direction="inc" step="1">
+                <assign variable="Lr" expression="ToCode(char(nomeO, i))"/>
+                <if expression="Lr&gt;64 and Lr&lt;91">
+                    <then>
+                        <assign variable="Lr" expression="Lr+32"/>
+                        <assign variable="Presto" expression="Presto &amp; tochar(Lr)"/>
+                    </then>
+                    <else>
+                        <assign variable="Presto" expression="Presto &amp; tochar(Lr)"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="Presto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

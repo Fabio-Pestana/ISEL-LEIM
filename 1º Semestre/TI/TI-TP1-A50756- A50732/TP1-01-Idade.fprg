@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 09:59:45 "/>
+        <attribute name="created" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjA5OjUyOjIyICI7Mjc0MA=="/>
+        <attribute name="edited" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjA5OjU5OjQ1ICI7MTsyODYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anoN, idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira o ano em que nasceu &quot;" newline="True"/>
+            <input variable="anoN"/>
+            <assign variable="idade" expression="2022 - anoN"/>
+            <output expression="&quot;Nasceu no ano de &quot; &amp; anoN &amp; &quot; e no ano de 2022 tem &quot; &amp; idade &amp; &quot; anos.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

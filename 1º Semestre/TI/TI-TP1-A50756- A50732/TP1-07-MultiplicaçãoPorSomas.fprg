@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 11:44:14 "/>
+        <attribute name="created" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjExOjI0OjUxICI7MjczNA=="/>
+        <attribute name="edited" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjExOjQ0OjE0ICI7MjsyODQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, p" type="Integer" array="False" size=""/>
+            <output expression="&quot;insira dois numeros: &quot;" newline="True"/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <assign variable="p" expression="0"/>
+            <if expression="x&lt;0 || y&lt;0">
+                <then>
+                    <output expression="&quot;Pelo menos um dos numeros inseridos &#233; negativo, pela qual impede o programa de prosseguir.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <while expression="y!=0">
+                        <assign variable="p" expression="p+x"/>
+                        <assign variable="y" expression="y-1"/>
+                    </while>
+                    <output expression="&quot;O valor do produto &#233;:&quot; &amp; p" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

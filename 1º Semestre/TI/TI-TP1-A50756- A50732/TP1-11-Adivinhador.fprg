@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 07:13:11 "/>
+        <attribute name="created" value="ZmFiaW87REVTS1RPUC1LRDhTSzFFOzIwMjItMTAtMjU7IjEwOjM5OjI4ICI7Mjc2Mw=="/>
+        <attribute name="edited" value="ZmFtaWw7TEFQVE9QLUxFR0lPTlk1OzIwMjItMTAtMjg7IjA2OjU5OjU2ICI7MzsyOTMx"/>
+        <attribute name="edited" value="ZmFiaW87REVTS1RPUC1LRDhTSzFFOzIwMjItMTAtMjg7IjA3OjEzOjExICI7NTsyODY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, i, meta, terminal" type="Integer" array="False" size=""/>
+            <declare name="opcao" type="String" array="False" size=""/>
+            <assign variable="x" expression="100"/>
+            <assign variable="i" expression="1"/>
+            <output expression="&quot;Pense num n&#250;mero entre 1 e 100, inclusive.&quot;" newline="True"/>
+            <output expression="&quot;O seu numero &#233; menor que &quot; &amp; x &amp; &quot; ?&quot;" newline="True"/>
+            <input variable="opcao"/>
+            <if expression="opcao= &quot;nao&quot; or opcao= &quot;n&#227;o&quot; or opcao= &quot;N&#227;o&quot; or opcao= &quot;N&#195;O&quot; or opcao= &quot;Nao&quot; or opcao= &quot;NAO&quot;">
+                <then>
+                    <output expression="&quot;Ent&#227;o o seu n&#250;mero &#233; 100.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="meta" expression="x/2"/>
+                    <assign variable="terminal" expression="1"/>
+                    <while expression="terminal=1">
+                        <output expression="&quot;O seu n&#250;mero &#233; menor que &quot; &amp; meta &amp; &quot; ?&quot;" newline="True"/>
+                        <input variable="opcao"/>
+                        <if expression="opcao= &quot;nao&quot; or opcao= &quot;n&#227;o&quot; or opcao= &quot;N&#227;o&quot; or opcao= &quot;N&#195;O&quot; or opcao= &quot;Nao&quot; or opcao= &quot;NAO&quot;">
+                            <then>
+                                <assign variable="i" expression="meta"/>
+                                <assign variable="meta" expression="x-((x-i)/2)"/>
+                            </then>
+                            <else>
+                                <assign variable="x" expression="meta"/>
+                                <assign variable="meta" expression="i+((x-i)/2)"/>
+                            </else>
+                        </if>
+                        <if expression="x= i+1">
+                            <then>
+                                <assign variable="terminal" expression="0"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </while>
+                    <output expression="&quot;Ent&#227;o o n&#250;mero que escolheu foi &quot; &amp; meta &amp; &quot;.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

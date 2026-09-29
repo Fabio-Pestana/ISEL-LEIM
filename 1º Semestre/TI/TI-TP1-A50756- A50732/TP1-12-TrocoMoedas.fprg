@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="famil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 07:44:02 "/>
+        <attribute name="created" value="ZmFtaWw7TEFQVE9QLUxFR0lPTlk1OzIwMjItMTAtMjg7IjA3OjA2OjE1ICI7MjgwOQ=="/>
+        <attribute name="edited" value="ZmFtaWw7TEFQVE9QLUxFR0lPTlk1OzIwMjItMTAtMjg7IjA3OjQ0OjAyICI7MTsyOTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="produto, troco, pagamento" type="Real" array="False" size=""/>
+            <declare name="q2, q1, q50, q20, q10, q05, q02, q01" type="Integer" array="False" size=""/>
+            <assign variable="q2" expression="0"/>
+            <assign variable="q1" expression="0"/>
+            <assign variable="q50" expression="0"/>
+            <assign variable="q20" expression="0"/>
+            <assign variable="q10" expression="0"/>
+            <assign variable="q05" expression="0"/>
+            <assign variable="q02" expression="0"/>
+            <assign variable="q01" expression="0"/>
+            <output expression="&quot;Introduza o valor do produto:&quot;" newline="True"/>
+            <input variable="produto"/>
+            <output expression="&quot;Introduza o valor do pagamento, menor que 50&#8364;:&quot;" newline="True"/>
+            <input variable="pagamento"/>
+            <while expression="pagamento &gt;50.0">
+                <output expression="&quot;Coloque um novo valor de pagamento:&quot;" newline="True"/>
+                <input variable="pagamento"/>
+            </while>
+            <assign variable="troco" expression="pagamento-produto"/>
+            <do expression="troco &gt; 0">
+                <assign variable="troco" expression="troco-2"/>
+                <assign variable="q2" expression="q2+1"/>
+            </do>
+            <if expression="troco != 0">
+                <then>
+                    <assign variable="troco" expression="troco + 2"/>
+                    <assign variable="q2" expression="q2-1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidade de moedas de 2&#8364; (troco): &quot; &amp; q2" newline="True"/>
+            <do expression="troco &gt; 0">
+                <assign variable="troco" expression="troco-1"/>
+                <assign variable="q1" expression="q1+1"/>
+            </do>
+            <if expression="troco != 0">
+                <then>
+                    <assign variable="troco" expression="troco + 1"/>
+                    <assign variable="q1" expression="q1-1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidade de moedas de 1&#8364; (troco): &quot; &amp; q1" newline="True"/>
+            <do expression="troco &gt; 0">
+                <assign variable="troco" expression="troco-0.5"/>
+                <assign variable="q50" expression="q50+1"/>
+            </do>
+            <if expression="troco != 0">
+                <then>
+                    <assign variable="troco" expression="troco + 0.5"/>
+                    <assign variable="q50" expression="q50-1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidade de moedas de 0.50&#8364; (troco): &quot; &amp; q50" newline="True"/>
+            <do expression="troco &gt; 0">
+                <assign variable="troco" expression="troco-0.2"/>
+                <assign variable="q20" expression="q20+1"/>
+            </do>
+            <if expression="troco != 0">
+                <then>
+                    <assign variable="troco" expression="troco + 0.2"/>
+                    <assign variable="q20" expression="q20-1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidade de moedas de 0.20&#8364; (troco): &quot; &amp; q20" newline="True"/>
+            <do expression="troco &gt; 0">
+                <assign variable="troco" expression="troco-0.1"/>
+                <assign variable="q10" expression="q10+1"/>
+            </do>
+            <if expression="troco != 0">
+                <then>
+                    <assign variable="troco" expression="troco + 0.1"/>
+                    <assign variable="q10" expression="q10-1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidade de moedas de 0.10&#8364; (troco): &quot; &amp; q10" newline="True"/>
+            <do expression="troco &gt; 0">
+                <assign variable="troco" expression="troco-0.05"/>
+                <assign variable="q05" expression="q05+1"/>
+            </do>
+            <if expression="troco != 0">
+                <then>
+                    <assign variable="troco" expression="troco + 0.05"/>
+                    <assign variable="q05" expression="q05-1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidade de moedas de 0.05&#8364; (troco): &quot; &amp; q05" newline="True"/>
+            <do expression="troco &gt; 0">
+                <assign variable="troco" expression="troco-0.02"/>
+                <assign variable="q02" expression="q02+1"/>
+            </do>
+            <if expression="troco != 0">
+                <then>
+                    <assign variable="troco" expression="troco + 0.02"/>
+                    <assign variable="q02" expression="q02-1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidade de moedas de 0.02&#8364; (troco): &quot; &amp; q02" newline="True"/>
+            <do expression="troco &gt; 0">
+                <assign variable="troco" expression="troco-0.01"/>
+                <assign variable="q01" expression="q01+1"/>
+            </do>
+            <if expression="troco != 0">
+                <then>
+                    <assign variable="troco" expression="troco + 0.01"/>
+                    <assign variable="q01" expression="q01-1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidade de moedas de 0.01&#8364; (troco): &quot; &amp; q01" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

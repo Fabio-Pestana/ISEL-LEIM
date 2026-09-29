@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 06:13:46 "/>
+        <attribute name="created" value="ZmFiaW87REVTS1RPUC1LRDhTSzFFOzIwMjItMTAtMjg7IjA1OjA0OjQ0ICI7Mjc2MA=="/>
+        <attribute name="edited" value="ZmFiaW87REVTS1RPUC1LRDhTSzFFOzIwMjItMTAtMjg7IjA2OjEzOjQ2ICI7NDsyODc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z, meio3, maior2, maior3, menor2, menor3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira tr&#234;s numeros: &quot;" newline="True"/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <input variable="z"/>
+            <assign variable="meio3" expression="meio3(x,y,z)"/>
+            <assign variable="maior3" expression="maior3(x,y,z)"/>
+            <assign variable="menor3" expression="menor3(x,y,z)"/>
+            <output expression="&quot;Valor interm&#233;dio: &quot; &amp; meio3 &amp; &quot;; Maior n&#250;mero entre os valores inseridos: &quot; &amp; maior3 &amp; &quot;; Por fim o menor valor &#233;: &quot; &amp; menor3" newline="True"/>
+        </body>
+    </function>
+    <function name="maior2" type="Integer" variable="maior2">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="maior2" type="Integer" array="False" size=""/>
+            <assign variable="maior2" expression="0"/>
+            <if expression="x&gt;y">
+                <then>
+                    <assign variable="maior2" expression="x"/>
+                </then>
+                <else>
+                    <assign variable="maior2" expression="y"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="maior3" type="Integer" variable=" maior3">
+        <parameters>
+            <parameter name="z" type="Integer" array="False"/>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="maior3, maior2" type="Integer" array="False" size=""/>
+            <assign variable="maior3" expression="0"/>
+            <assign variable="maior2" expression="maior2(x,y)"/>
+            <assign variable="maior3" expression="maior2( maior2, z)"/>
+        </body>
+    </function>
+    <function name="meio3" type="Integer" variable="meio3">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+            <parameter name="z" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="meio3, maior3, menor3" type="Integer" array="False" size=""/>
+            <assign variable="meio3" expression="0"/>
+            <assign variable="maior3" expression="maior3(x,y,z)"/>
+            <assign variable="menor3" expression="menor3(x,y,z)"/>
+            <assign variable="meio3" expression="(x+y+z)-(maior3+menor3)"/>
+        </body>
+    </function>
+    <function name="menor2" type="Integer" variable=" menor2">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="menor2, maior2" type="Integer" array="False" size=""/>
+            <assign variable="menor2" expression="0"/>
+            <assign variable="maior2" expression="maior2(x,y)"/>
+            <assign variable="menor2" expression="(x + y) - maior2"/>
+        </body>
+    </function>
+    <function name="menor3" type="Integer" variable="menor3">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+            <parameter name="z" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="menor3, menor2" type="Integer" array="False" size=""/>
+            <assign variable="menor3" expression="0"/>
+            <assign variable="menor2" expression="menor2(x,y)"/>
+            <assign variable="menor3" expression="menor2(menor2, z)"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 10:54:45 "/>
+        <attribute name="created" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjEwOjQ4OjM5ICI7Mjc0NQ=="/>
+        <attribute name="edited" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjEwOjU0OjQ1ICI7MTsyODQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;introduza um numero &quot;" newline="True"/>
+            <input variable="x"/>
+            <if expression="(x%2)==0">
+                <then>
+                    <output expression="&quot;O numero &quot; &amp; x &amp; &quot; e par.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="(x%9)==0">
+                        <then>
+                            <output expression="&quot;O numero &quot; &amp; x &amp; &quot; e impar e &#233; multiplo de 9&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O numero &quot; &amp; x &amp; &quot; e impar e n&#227;o &#233; multiplo de 9.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

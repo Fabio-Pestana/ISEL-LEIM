@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 10:24:04 "/>
+        <attribute name="created" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjEwOjE3OjE4ICI7MjczOA=="/>
+        <attribute name="edited" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjEwOjI0OjA0ICI7MTsyODM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anodeN, idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Indique o ano do seu nascimneto &quot;" newline="True"/>
+            <input variable="anodeN"/>
+            <assign variable="idade" expression="2022 - anodeN"/>
+            <if expression="idade &gt;= 18">
+                <then>
+                    <output expression="&quot;O individuo poder&#225; votar nestas elei&#231;&#245;es! &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O individuo n&#227;o pode votar! &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

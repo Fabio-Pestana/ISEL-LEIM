@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-27 09:18:48 "/>
+        <attribute name="created" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMjc7IjA4OjM4OjAwICI7MjczOQ=="/>
+        <attribute name="edited" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMjc7IjA5OjE4OjQ4ICI7MTsyODU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira dois numeros&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <while expression="a&lt;=0 and b&lt;=0">
+                <output expression="&quot;Insira numeros inteiros maiores que zero&quot;" newline="True"/>
+                <input variable="a"/>
+                <input variable="b"/>
+            </while>
+            <output expression="&quot;O valor da potencia &#233; &quot; &amp; pow(a,b)" newline="True"/>
+        </body>
+    </function>
+    <function name="mult" type="Integer" variable="multip">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="multip, terminal" type="Integer" array="False" size=""/>
+            <assign variable="multip" expression="0"/>
+            <assign variable="terminal" expression="0"/>
+            <while expression="terminal&lt;b">
+                <assign variable="multip" expression="multip+a"/>
+                <assign variable="terminal" expression="terminal+1"/>
+            </while>
+        </body>
+    </function>
+    <function name="pow" type="Integer" variable="a">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="terminal2, guardar" type="Integer" array="False" size=""/>
+            <assign variable="guardar" expression="a"/>
+            <assign variable="terminal2" expression="1"/>
+            <while expression="terminal2!=b">
+                <assign variable="a" expression="mult(a,guardar)"/>
+                <assign variable="terminal2" expression="terminal2 + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 08:49:10 "/>
+        <attribute name="created" value="ZmFiaW87REVTS1RPUC1LRDhTSzFFOzIwMjItMTAtMjg7IjA2OjIzOjQ3ICI7Mjc2NQ=="/>
+        <attribute name="edited" value="ZmFiaW87REVTS1RPUC1LRDhTSzFFOzIwMjItMTAtMjg7IjA2OjI5OjQzICI7NDtmYWJpbztMQVBUT1AtVkxEMjBJRzc7MjAyMi0xMC0yMDsiMDg6Mjk6MDkgIjtUUDEtMTAtTm9ybWFsaXphci5mcHJnOzc2Njk="/>
+        <attribute name="edited" value="ZmFiaW87REVTS1RPUC1LRDhTSzFFOzIwMjItMTAtMjg7IjA4OjQ5OjEwICI7MTsyODcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="palavraI, palavraF" type="String" array="False" size=""/>
+            <declare name="Comp, i, L, Nocor" type="Integer" array="False" size=""/>
+            <assign variable="Nocor" expression="0"/>
+            <declare name="VouF" type="Boolean" array="False" size=""/>
+            <output expression="&quot;Introduza uma palavra: &quot;" newline="True"/>
+            <input variable="palavraI"/>
+            <assign variable="Comp" expression="len(palavraI)-1"/>
+            <assign variable="palavraF" expression="&quot;&quot;"/>
+            <for variable="i" start="0" end="Comp" direction="inc" step="1">
+                <assign variable="L" expression="ToCode(char(palavraI, i))"/>
+                <if expression="L&gt;64 and L&lt;91">
+                    <then>
+                        <assign variable="L" expression="L+32"/>
+                        <assign variable="palavraF" expression="palavraF &amp; tochar(L)"/>
+                    </then>
+                    <else>
+                        <assign variable="palavraF" expression="palavraF &amp; tochar(L)"/>
+                    </else>
+                </if>
+            </for>
+            <assign variable="VouF" expression="isograma(palavraF, Nocor)"/>
+            <if expression="VouF==True">
+                <then>
+                    <output expression="palavraF &amp; &quot; &#233; um isograma&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="palavraF &amp; &quot; n&#227;o &#233; um isograma&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="contarOcorrencias" type="Integer" variable="Nocor">
+        <parameters>
+            <parameter name="palavraF" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Nocor, Comp, n, IF, II" type="Integer" array="False" size=""/>
+            <assign variable="Comp" expression="len(palavraF)-1"/>
+            <assign variable="Nocor" expression="0"/>
+            <assign variable="IF" expression="0"/>
+            <assign variable="II" expression="0"/>
+            <for variable="n" start="0" end="Comp" direction="inc" step="1">
+                <assign variable="IF" expression="II+1"/>
+                <while expression="IF!=Comp">
+                    <if expression="IF!=II">
+                        <then>
+                            <if expression="char(palavraF,II)= char(palavraF, IF)">
+                                <then>
+                                    <assign variable="Nocor" expression="Nocor+1"/>
+                                </then>
+                                <else/>
+                            </if>
+                            <assign variable="IF" expression="IF+1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </while>
+            </for>
+        </body>
+    </function>
+    <function name="isograma" type="Boolean" variable="VouF">
+        <parameters>
+            <parameter name="palavraF" type="String" array="False"/>
+            <parameter name="Nocor" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="VouF" type="Boolean" array="False" size=""/>
+            <assign variable="Nocor" expression="contarOcorrencias(palavraF)"/>
+            <assign variable="VouF" expression="(Nocor=0)"/>
+        </body>
+    </function>
+</flowgorithm>

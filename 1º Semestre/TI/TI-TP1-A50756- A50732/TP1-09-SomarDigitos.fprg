@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 12:25:17 "/>
+        <attribute name="created" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjEyOjAxOjA4ICI7MjczMg=="/>
+        <attribute name="edited" value="ZmFiaW87TEFQVE9QLVZMRDIwSUc3OzIwMjItMTAtMTg7IjEyOjI1OjE3ICI7MTsyODQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, s, r, a" type="Integer" array="False" size=""/>
+            <output expression="&quot;insira um numero&quot;" newline="True"/>
+            <input variable="x"/>
+            <assign variable="s" expression="0"/>
+            <assign variable="r" expression="0"/>
+            <while expression="r!=x">
+                <assign variable="r" expression="x%10"/>
+                <assign variable="s" expression="s+r"/>
+                <assign variable="x" expression="x/10"/>
+            </while>
+            <output expression="&quot;O valor da soma dos digitos inseridos &#233;: &quot; &amp; s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
