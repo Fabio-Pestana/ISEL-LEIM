@@ -22,7 +22,7 @@ MAE/
 
 ### Circuito escolhido
 
-> Circuito Prince George F1 Leste, londres, áfrica sul
+> Circuito Prince George F1 Leste, londres, África do Sul
 
 
 ![Circuito](CarRace_A50756_LEIM11D/Circuito.jpeg)
