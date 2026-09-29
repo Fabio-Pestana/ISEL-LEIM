@@ -3,7 +3,7 @@
 Projeto da unidade curricular **Matemática Aplicada à Engenharia** (MAE)
 de LEIM, no **Instituto Superior de Engenharia de Lisboa (ISEL)**, ano letivo 2022/23.
 
-- **Aluno:** [Fábio Pestana] — [50756]
+- **Aluno:** Fábio Pestana — 50756
 - **Docente responsável:** Sandra Couto
 
 ---
@@ -25,5 +25,5 @@ MAE/
 > Circuito Prince George F1 Leste, londres, áfrica sul
 
 
-![Circuito](1ºSemestre/MAE/CarRace_A50756_LEIM11D/Circuito.jpeg)
+![Circuito](MAE/CarRace_A50756_LEIM11D/Circuito.jpeg)
 
