@@ -1,0 +1,17 @@
+/**
+ * @author Fabio Pestana - A50756
+ * @author Miguel Alcobia - A50746
+ * ISEL - LEIM 23/24
+ */
+
+import processing.core.PApplet;
+
+public interface IProcessingApp {
+    void setup(PApplet parent);
+
+    void draw(PApplet parent, float dt);
+
+    void keyPressed(PApplet parent);
+
+    void mousePressed(PApplet parent);
+}
