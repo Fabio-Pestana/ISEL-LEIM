@@ -1,7 +1,7 @@
 # Comunicações e Processamento de Sinais — Trabalhos Práticos
 
 Conjunto de **2 trabalhos práticos** desenvolvidos na unidade curricular **Comunicações e Processamento de Sinais** (CPS) de LEIM,
-no **ISEL**, 2º semestre do ano letivo 2023/24.
+no **ISEL**, ano letivo 2023/24.
 
 - **Aluno:** Fábio Pestana — 50756
 - **Aluno:** João Ramos — 50730
