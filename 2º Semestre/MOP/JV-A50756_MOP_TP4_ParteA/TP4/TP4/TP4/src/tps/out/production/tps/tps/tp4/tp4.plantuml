@@ -1,0 +1,214 @@
+@startuml
+
+title __TP4's Class Diagram__\n
+
+  namespace tps.tp4 {
+    class tps.tp4.AppMenus {
+        {static} + Continue()
+        {static} + change()
+        {static} + createClient()
+        {static} + createEmployee()
+        {static} + createEquipamento()
+        {static} + dadoPessoal()
+        {static} + decision()
+        {static} + login()
+        {static} + menuAL()
+        {static} + menuClient()
+        {static} + menuGestor()
+        {static} + menuPt()
+        {static} + scanner()
+    }
+  }
+  
+
+  namespace tps.tp4 {
+    class tps.tp4.Build_Classes {
+        {static} + buildC()
+        {static} + buildE()
+        {static} + buildM()
+        {static} + buildPt()
+    }
+  }
+  
+
+  namespace tps.tp4 {
+    class tps.tp4.Client {
+        - ClientPack : int
+        - altura : int
+        - dataInscricao : LocalDate
+        - peso : int
+        - taxaDeAtivFisica : int
+        + Client()
+        + caloriesCalculator()
+        + createElement()
+        + getAltura()
+        + getCaloricDeficit()
+        + getClientPack()
+        + getDataInscricao()
+        + getGainWeight()
+        + getPayment()
+        + getPeso()
+        + getTaxaDeAtivFisica()
+        + setAltura()
+        + setDataInscricao()
+        + setPeso()
+        + setTaxaDeAtivFisica()
+        + toString()
+    }
+  }
+  
+
+  namespace tps.tp4 {
+    class tps.tp4.Employee {
+        - cargo : String
+        - dataContratacao : LocalDate
+        - salario : int
+        - yearsOfContract : int
+        + Employee()
+        + Raise()
+        + createElement()
+        + endContract()
+        + getCargo()
+        + getDataContratacao()
+        + getSalario()
+        + getYearsOfContract()
+        + isCargoValid()
+        + newContract()
+        + setYearsOfContract()
+        + toString()
+    }
+  }
+  
+
+  namespace tps.tp4 {
+    class tps.tp4.Equipamento {
+        ~ Manutencao : LocalDate
+        ~ precisaDeManutencao : boolean
+        - custo : int
+        - dataDeCompra : LocalDate
+        - nome : String
+        + Equipamento()
+        + createElement()
+        + getCusto()
+        + getDataDeCompra()
+        + getNome()
+        + isPrecisaDeManutencao()
+        + manutencaoUptade()
+        + precoManutencao()
+        + setDataDeCompra()
+        + setNome()
+        + toString()
+    }
+  }
+  
+
+  namespace tps.tp4 {
+    class tps.tp4.Ginasio {
+        {static} ~ GymMembers : ArrayList<Client>
+        {static} ~ employees : ArrayList<Employee>
+        {static} ~ machines : ArrayList<Equipamento>
+        {static} ~ numEmployees : int
+        {static} ~ numMachines : int
+        {static} ~ numMembers : int
+        {static} - MAX_EMPLOYEES : int
+        {static} - MAX_MACHINES : int
+        {static} - MAX_MEMBERS : int
+        {static} + addEmployee()
+        {static} + addGymMember()
+        {static} + addMachine()
+        {static} + checkUser()
+        {static} + createElement()
+        {static} + delClient()
+        {static} + delEmployee()
+        {static} + delMachine()
+        {static} + getEmployees()
+        {static} + getEquipamento()
+        {static} + getIndexOfEmployee()
+        {static} + getIndexOfGymM()
+        {static} + getIndexOfMachines()
+        {static} + getMembers()
+        {static} + getPerson()
+        {static} + gymDespesas()
+        {static} + gymEntradas()
+        {static} + gymLucros()
+        {static} + main()
+        {static} + saveGymToXML()
+    }
+  }
+  
+
+  namespace tps.tp4 {
+    class tps.tp4.Pack {
+        ~ price : double
+        - numeroDoPack : int
+        + Pack()
+        + getDataExpiracaoContrato()
+        + getNumeroDoPack()
+        + setNumeroDoPack()
+        + setPrice()
+    }
+  }
+  
+
+  namespace tps.tp4 {
+    abstract class tps.tp4.Person {
+        - genero : String
+        - idade : int
+        - nome : String
+        - number : String
+        - password : String
+        + Person()
+        {abstract} + createElement()
+        + getAge()
+        + getGenero()
+        + getName()
+        + getNumber()
+        + getPassword()
+        {static} + isNameValid()
+        {static} + isNumberValid()
+        {static} + isPasswordValid()
+        + login()
+        {static} + removeExtraSpaces()
+        + setIdade()
+        + setNumber()
+        + setPassword()
+    }
+  }
+  
+
+  namespace tps.tp4 {
+    class tps.tp4.PersonalTrainer {
+        ~ ptClients : ArrayList<String>
+        {static} - MAX_CLIENTS : int
+        {static} - clienteBonus : int
+        - experiencia : int
+        - numClientes : int
+        + Bonus()
+        + PersonalTrainer()
+        + addClient()
+        + createElement()
+        + delClient()
+        + getClients()
+        + getExperiencia()
+        + getIndexOfGymM()
+        + setExperiencia()
+        + toString()
+        + uptadeSalario()
+    }
+  }
+  
+
+  tps.tp4.Client -up-|> tps.tp4.Person
+  tps.tp4.Client o-- tps.tp4.Pack : pack
+  tps.tp4.Employee -up-|> tps.tp4.Person
+  tps.tp4.PersonalTrainer -up-|> tps.tp4.Employee
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

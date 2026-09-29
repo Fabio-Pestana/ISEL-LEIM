@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Ginasio>
+    <Persons>
+        <Clientes>
+            <Client>
+                <Nome>Fabio Pestana</Nome>
+                <Idade>20</Idade>
+                <Numero>926987210</Numero>
+                <Password>Fabio2004</Password>
+                <Genero>Masculino</Genero>
+                <Peso>80</Peso>
+                <Altura>180</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2023-05-20</DataInscricao>
+                <TaxaDeAtividadeFisica>4</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Joao Silva</Nome>
+                <Idade>25</Idade>
+                <Numero>987654321</Numero>
+                <Password>Aaabb1234</Password>
+                <Genero>Masculino</Genero>
+                <Peso>90</Peso>
+                <Altura>192</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2020-01-25</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Maria Santos</Nome>
+                <Idade>30</Idade>
+                <Numero>976543210</Numero>
+                <Password>Xyzwq5678</Password>
+                <Genero>Feminino</Genero>
+                <Peso>65</Peso>
+                <Altura>160</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2022-04-12</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Pedro Costa</Nome>
+                <Idade>18</Idade>
+                <Numero>965432109</Numero>
+                <Password>Abcde9876</Password>
+                <Genero>Masculino</Genero>
+                <Peso>75</Peso>
+                <Altura>188</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2019-08-30</DataInscricao>
+                <TaxaDeAtividadeFisica>4</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Paulo Afonso</Nome>
+                <Idade>45</Idade>
+                <Numero>927210654</Numero>
+                <Password>PauloA1978</Password>
+                <Genero>Masculino</Genero>
+                <Peso>95</Peso>
+                <Altura>187</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2023-05-10</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Joao Maria</Nome>
+                <Idade>24</Idade>
+                <Numero>932109876</Numero>
+                <Password>JoaoMar1809</Password>
+                <Genero>Masculino</Genero>
+                <Peso>74</Peso>
+                <Altura>176</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2018-08-12</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Jose Santos</Nome>
+                <Idade>33</Idade>
+                <Numero>976125410</Numero>
+                <Password>JSanto5678</Password>
+                <Genero>Masculino</Genero>
+                <Peso>75</Peso>
+                <Altura>170</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2022-08-22</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Miguel Alcobia</Nome>
+                <Idade>28</Idade>
+                <Numero>918522660</Numero>
+                <Password>Benfica2004</Password>
+                <Genero>Masculino</Genero>
+                <Peso>65</Peso>
+                <Altura>179</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2023-01-30</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Rafael Mendes</Nome>
+                <Idade>17</Idade>
+                <Numero>929582301</Numero>
+                <Password>Form22234life</Password>
+                <Genero>Masculino</Genero>
+                <Peso>71</Peso>
+                <Altura>173</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2022-12-02</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Ana Costa</Nome>
+                <Idade>35</Idade>
+                <Numero>912345678</Numero>
+                <Password>AnaCosta1234</Password>
+                <Genero>Feminino</Genero>
+                <Peso>60</Peso>
+                <Altura>165</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2023-03-15</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Carlos Ferreira</Nome>
+                <Idade>42</Idade>
+                <Numero>923456789</Numero>
+                <Password>CarlosF1979</Password>
+                <Genero>Masculino</Genero>
+                <Peso>85</Peso>
+                <Altura>175</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2021-07-20</DataInscricao>
+                <TaxaDeAtividadeFisica>4</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Sofia Rodrigues</Nome>
+                <Idade>27</Idade>
+                <Numero>935678912</Numero>
+                <Password>Sofia2022</Password>
+                <Genero>Feminino</Genero>
+                <Peso>55</Peso>
+                <Altura>160</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2022-09-10</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Andre Santos</Nome>
+                <Idade>31</Idade>
+                <Numero>944567891</Numero>
+                <Password>Andre1989</Password>
+                <Genero>Masculino</Genero>
+                <Peso>80</Peso>
+                <Altura>180</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2022-11-05</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Mariana Oliveira</Nome>
+                <Idade>24</Idade>
+                <Numero>956789123</Numero>
+                <Password>Mariana2499</Password>
+                <Genero>Feminino</Genero>
+                <Peso>62</Peso>
+                <Altura>165</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2023-02-28</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Fernando Silva</Nome>
+                <Idade>40</Idade>
+                <Numero>967891234</Numero>
+                <Password>Fernando0421</Password>
+                <Genero>Masculino</Genero>
+                <Peso>90</Peso>
+                <Altura>185</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2021-04-15</DataInscricao>
+                <TaxaDeAtividadeFisica>4</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Carolina Santos</Nome>
+                <Idade>29</Idade>
+                <Numero>978912345</Numero>
+                <Password>Carolina0929</Password>
+                <Genero>Feminino</Genero>
+                <Peso>63</Peso>
+                <Altura>170</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2022-06-18</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Antonio Ribeiro</Nome>
+                <Idade>37</Idade>
+                <Numero>991234567</Numero>
+                <Password>Antonio0317</Password>
+                <Genero>Masculino</Genero>
+                <Peso>78</Peso>
+                <Altura>175</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2023-03-02</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Ana Sousa</Nome>
+                <Idade>26</Idade>
+                <Numero>912345678</Numero>
+                <Password>AnaSousa2126</Password>
+                <Genero>Feminino</Genero>
+                <Peso>57</Peso>
+                <Altura>165</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2021-10-20</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Luis Torres</Nome>
+                <Idade>33</Idade>
+                <Numero>934567891</Numero>
+                <Password>LuisTorres2133</Password>
+                <Genero>Masculino</Genero>
+                <Peso>85</Peso>
+                <Altura>182</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2022-02-12</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Beatriz Ferreira</Nome>
+                <Idade>28</Idade>
+                <Numero>956789123</Numero>
+                <Password>Beatriz43128</Password>
+                <Genero>Feminino</Genero>
+                <Peso>58</Peso>
+                <Altura>160</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2023-01-08</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Gustavo Pereira</Nome>
+                <Idade>36</Idade>
+                <Numero>967891234</Numero>
+                <Password>Gustavo36312</Password>
+                <Genero>Masculino</Genero>
+                <Peso>92</Peso>
+                <Altura>190</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2021-08-25</DataInscricao>
+                <TaxaDeAtividadeFisica>4</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Isabel Oliveira</Nome>
+                <Idade>31</Idade>
+                <Numero>978912345</Numero>
+                <Password>Isabel3131</Password>
+                <Genero>Feminino</Genero>
+                <Peso>65</Peso>
+                <Altura>168</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2022-05-05</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Diogo Rodrigues</Nome>
+                <Idade>34</Idade>
+                <Numero>991234567</Numero>
+                <Password>Diogo33124</Password>
+                <Genero>Masculino</Genero>
+                <Peso>80</Peso>
+                <Altura>178</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2023-04-01</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Carla Silva</Nome>
+                <Idade>27</Idade>
+                <Numero>912345678</Numero>
+                <Password>CarlaS22217</Password>
+                <Genero>Feminino</Genero>
+                <Peso>62</Peso>
+                <Altura>165</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2021-12-10</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Marcos Almeida</Nome>
+                <Idade>39</Idade>
+                <Numero>934567891</Numero>
+                <Password>MarcosA33219</Password>
+                <Genero>Masculino</Genero>
+                <Peso>87</Peso>
+                <Altura>180</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2022-03-18</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Camila Santos</Nome>
+                <Idade>29</Idade>
+                <Numero>956789123</Numero>
+                <Password>Camila2912</Password>
+                <Genero>Feminino</Genero>
+                <Peso>58</Peso>
+                <Altura>162</Altura>
+                <ClientPack>1</ClientPack>
+                <DataInscricao>2023-01-28</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Jorge Pereira</Nome>
+                <Idade>41</Idade>
+                <Numero>967891234</Numero>
+                <Password>JorgeP4211</Password>
+                <Genero>Masculino</Genero>
+                <Peso>88</Peso>
+                <Altura>185</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2021-06-22</DataInscricao>
+                <TaxaDeAtividadeFisica>4</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Ana Rodrigues</Nome>
+                <Idade>30</Idade>
+                <Numero>978912345</Numero>
+                <Password>AnaRodr3012</Password>
+                <Genero>Feminino</Genero>
+                <Peso>63</Peso>
+                <Altura>167</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2022-07-05</DataInscricao>
+                <TaxaDeAtividadeFisica>3</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Ricardo Ferreira</Nome>
+                <Idade>38</Idade>
+                <Numero>991234567</Numero>
+                <Password>Ricardo3821</Password>
+                <Genero>Masculino</Genero>
+                <Peso>82</Peso>
+                <Altura>183</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2023-04-10</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+            <Client>
+                <Nome>Patricia Silva</Nome>
+                <Idade>28</Idade>
+                <Numero>912345678</Numero>
+                <Password>PatriciaS2218</Password>
+                <Genero>Feminino</Genero>
+                <Peso>60</Peso>
+                <Altura>164</Altura>
+                <ClientPack>2</ClientPack>
+                <DataInscricao>2021-11-30</DataInscricao>
+                <TaxaDeAtividadeFisica>2</TaxaDeAtividadeFisica>
+            </Client>
+        </Clientes>
+        <Employees>
+            <Instrutor>
+                <Nome>Paulo Silva</Nome>
+                <Idade>37</Idade>
+                <Numero>925352378</Numero>
+                <Password>Paulo1904</Password>
+                <Genero>Masculino</Genero>
+                <DataContratacao>2021-03-02</DataContratacao>
+                <YearsOfContract>5</YearsOfContract>
+                <Experiencia>12</Experiencia>
+                <PtClientes>
+                    <ClientNome>Fabio Pestana</ClientNome>
+                    <ClientNome>Maria Santos</ClientNome>
+                    <ClientNome>Pedro Costa</ClientNome>
+                    <ClientNome>Paulo Afonso</ClientNome>
+                    <ClientNome>Jose Santos</ClientNome>
+                    <ClientNome>Luis Torres</ClientNome>
+                    <ClientNome>Gustavo Pereira</ClientNome>
+                    <ClientNome>Miguel Alcobia</ClientNome>
+                </PtClientes>
+            </Instrutor>
+            <Instrutor>
+                <Nome>Americo Pinheiro</Nome>
+                <Idade>57</Idade>
+                <Numero>917730762</Numero>
+                <Password>Nsa4life2016</Password>
+                <Genero>Masculino</Genero>
+                <DataContratacao>2022-09-05</DataContratacao>
+                <YearsOfContract>4</YearsOfContract>
+                <Experiencia>23</Experiencia>
+                <PtClientes>
+                    <ClientNome>Diogo Rodrigues</ClientNome>
+                    <ClientNome>Carlos Ferreira</ClientNome>
+                    <ClientNome>Andre Santos</ClientNome>
+                    <ClientNome>Fernando Silva</ClientNome>
+                    <ClientNome>Carolina Santos</ClientNome>
+                    <ClientNome>Jorge Pereira</ClientNome>
+                </PtClientes>
+            </Instrutor>
+            <Instrutor>
+                <Nome>Eva Mendes</Nome>
+                <Idade>27</Idade>
+                <Numero>935431749</Numero>
+                <Password>EvaMendes0511</Password>
+                <Genero>Feminino</Genero>
+                <DataContratacao>2020-04-15</DataContratacao>
+                <YearsOfContract>3</YearsOfContract>
+                <Experiencia>4</Experiencia>
+                <PtClientes>
+                    <ClientNome>Ana Sousa</ClientNome>
+                    <ClientNome>Beatriz Ferreira</ClientNome>
+                    <ClientNome>Isabel Oliveira</ClientNome>
+                    <ClientNome>Marcos Almeida</ClientNome>
+                    <ClientNome>Ana Rodrigues</ClientNome>
+                    <ClientNome>Patricia Silva</ClientNome>
+                    <ClientNome>Ricardo Ferreira</ClientNome>
+                </PtClientes>
+            </Instrutor>
+            <Employee>
+                <Nome>Bruna Almeida</Nome>
+                <Idade>31</Idade>
+                <Numero>914324387</Numero>
+                <Password>BAlmeida1201</Password>
+                <Genero>Feminino</Genero>
+                <Cargo>Gestor</Cargo>
+                <Salario>750.0</Salario>
+                <DataContratacao>2019-08-05</DataContratacao>
+                <YearsOfContract>5</YearsOfContract>
+            </Employee>
+            <Employee>
+                <Nome>Maria Leonor</Nome>
+                <Idade>19</Idade>
+                <Numero>912345678</Numero>
+                <Password>MLeonor1205</Password>
+                <Genero>Feminino</Genero>
+                <Cargo>Gestor</Cargo>
+                <Salario>750.0</Salario>
+                <DataContratacao>2021-01-15</DataContratacao>
+                <YearsOfContract>4</YearsOfContract>
+            </Employee>
+            <Employee>
+                <Nome>Mario Silva</Nome>
+                <Idade>35</Idade>
+                <Numero>919876543</Numero>
+                <Password>MSilva1988</Password>
+                <Genero>Masculino</Genero>
+                <Cargo>Auxiliar de limpeza</Cargo>
+                <Salario>650.0</Salario>
+                <DataContratacao>2022-06-20</DataContratacao>
+                <YearsOfContract>2</YearsOfContract>
+            </Employee>
+            <Employee>
+                <Nome>Carlos Oliveira</Nome>
+                <Idade>42</Idade>
+                <Numero>927654321</Numero>
+                <Password>COliveira1981</Password>
+                <Genero>Masculino</Genero>
+                <Cargo>Auxiliar de limpeza</Cargo>
+                <Salario>650.0</Salario>
+                <DataContratacao>2022-03-10</DataContratacao>
+                <YearsOfContract>2</YearsOfContract>
+            </Employee>
+        </Employees>
+    </Persons>
+    <Machines>
+        <Machine>
+            <Nome>Bench press</Nome>
+            <DataDeCompra>2021-03-10</DataDeCompra>
+            <Custo>120</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Smith machine squat</Nome>
+            <DataDeCompra>2020-08-20</DataDeCompra>
+            <Custo>320</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Leg press</Nome>
+            <DataDeCompra>2023-04-16</DataDeCompra>
+            <Custo>120</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Cable crossover</Nome>
+            <DataDeCompra>2019-12-02</DataDeCompra>
+            <Custo>240</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Leg extension</Nome>
+            <DataDeCompra>2021-05-13</DataDeCompra>
+            <Custo>200</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Calf raise machine</Nome>
+            <DataDeCompra>2021-05-13</DataDeCompra>
+            <Custo>145</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Glute machine</Nome>
+            <DataDeCompra>2022-11-21</DataDeCompra>
+            <Custo>245</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Hack squat machine</Nome>
+            <DataDeCompra>2022-11-21</DataDeCompra>
+            <Custo>350</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Treadmill</Nome>
+            <DataDeCompra>2020-12-18</DataDeCompra>
+            <Custo>200</Custo>
+        </Machine>
+        <Machine>
+            <Nome>Rowing machine</Nome>
+            <DataDeCompra>2020-12-18</DataDeCompra>
+            <Custo>225</Custo>
+        </Machine>
+    </Machines>
+</Ginasio>
