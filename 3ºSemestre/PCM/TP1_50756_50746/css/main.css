@@ -1,0 +1,217 @@
+body {
+    font-family: 'Saira', sans-serif;
+}
+
+.custom-baseSite{
+    background-color: rgb(110, 41, 41);
+}
+
+.custom-red {
+    color: #ff1e1e;
+}
+
+.custom-orange {
+    color: #fc5406; 
+}
+
+#miguelInsta:hover,
+.fa-twitter:hover,
+#fabioInsta:hover,
+.fa-reddit:hover {
+    color: rgb(255, 209, 2);
+}
+
+.navbar-toggler:hover,
+.navbar-brand:hover,
+.nav-link:hover,
+.dropdown-item:hover{
+    background-color: rgb(82, 82, 82);
+    color: white;
+    border-radius: 5px; /* CSS3 */
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: white;
+    transition: all 0.5s ease; /* CSS3 */
+}
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px); /* CSS3 */
+}
+.change .bar2 {
+    opacity: 0; /* CSS3 */
+}
+.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px); /* CSS3 */
+}
+
+.carousel-item {
+    min-height: 30vh;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+    max-height: 600px;
+}
+  
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#imagemC1 {
+    max-height: 800px;
+}
+
+#imagemC2 {
+    max-height: 700px;
+}
+
+#imagemC3 {
+    max-height: 600px;
+}
+  
+.overlay-text1 {
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    color: rgb(110, 41, 41);
+    font-size: 5vw;
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 12%;
+    left: 26%;
+    color: rgb(110, 41, 41);
+    font-size: 5vw;
+}
+
+.overlay-text3 {
+    position: absolute;
+    top: 25%; 
+    left: 10%; 
+    color: rgb(110, 41, 41);
+    font-size: 5vw;
+}
+
+.our-work-button {
+    transition: all 0.5s ease; /* CSS3 */
+}
+  
+.our-work-button:hover {
+    background-color: #cf1e1e;
+    transform: translateY(-20px); /* CSS3 */
+}
+
+#backToTopBtn:hover {
+    background-color: rgb(82, 82, 82);
+}
+
+.fa-folder,
+.fa-info,
+.fa-square-check,
+.fa-arrow-up{
+    color: white;
+}
+
+.polygon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /* CSS3 */
+    padding-left: 10%; 
+    clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
+}
+
+.fa-java,
+.fa-python,
+.fa-photo-film,
+.fa-c {
+    font-size: 75px;
+    color: white;
+    border-radius: 10px; /* CSS3 */
+}
+
+.polygon:hover {
+    filter: brightness(0.5);
+}
+
+.fa-java:hover,
+.fa-python:hover,
+.fa-photo-film:hover,
+.fa-c:hover{
+    color: rgb(180, 180, 180);
+}
+
+.container-AboutUs{
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+    padding: 110px;
+}
+
+.leftColProgress{
+    background-color: white;
+    padding-left: 20px;
+}
+
+.progress{
+    box-shadow: 0 5px 5px rgb(71, 71, 71); /* CSS3 */
+}
+
+.BotaoDownload {
+    transition: all 0.5s ease; /* CSS3 */
+}
+  
+.BotaoDownload:hover {
+    background-color: rgb(110, 41, 41);
+    transform: translateY(-20px); /* CSS3 */
+}
+
+.card-img-container {
+    overflow: hidden;
+    position: relative;
+    background-color: #8e1212;
+}
+
+.card-img-top {
+    width: 100%;
+    transition: all 0.3s; /* CSS3 */
+}
+
+.card-img-container:hover .card-img-top {
+    transform: scale(1.2); /* CSS3 */
+    opacity: 0.4; /* CSS3 */
+}
+
+.overlay-icon {
+    font-size: 45px; 
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* CSS3 */
+    opacity: 0; /* CSS3 */
+    transition: opacity 0.3s; /* CSS3 */
+}
+
+.card-img-container:hover .overlay-icon {
+    opacity: 1; /* CSS3 */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .centralizar-md {
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+    }
+}
+
+.container-Contact{
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.custom-email-input {
+    width: 100%;
+}

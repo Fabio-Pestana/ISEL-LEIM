@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="ImageGalleryIcon.ico">
+    
+    <title>Image Gallery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="scripts/Image_Processing.js"></script>
+    <script src="scripts/Database.js"></script>
+    <script src="scripts/ISearchEngine.js"></script>
+    <script src="scripts/ISearchEngine_Manager.js"></script>
+    <script src="https://kit.fontawesome.com/b283192756.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark mb-2 custom-baseSite">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-0" href="#">IMAGE GALLERY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <form class="d-flex ms-auto">
+                        <button class="custom-dark-mode-button" type="button" id="musicOnOff">
+                            <i id="musicIcon" class="fa-solid fa-volume-high"></i>
+                            <div class="bar4"></div>
+                        </button>
+                        <label id="switchLabel" class="mx-3">
+                            <input type="checkbox" id="changeMode">
+                            <i id="sun" class="fa-regular fa-sun"></i>
+                            <i id="moon" class="fa-regular fa-moon"></i>
+                            <span class="toggle"></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <audio id="backgroundMusic" loop>
+        <source src="music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <main>
+        <div class="searchArea">
+            <div class="boxContainer">
+                <table class="elementsContainer">
+                    <tr>
+                        <td class="search">
+                            <input type="text" placeholder="Pesquise as suas fotos" class="search" id="searchInput" list="input">
+                            <datalist id="input">
+                                <option value="beach">Beach</option>
+                                <option value="birthday">Birthday</option>
+                                <option value="face">Face</option>
+                                <option value="indoor">Indoor</option>
+                                <option value="manmade">Man Made</option>
+                                <option value="artificial">Man Made - Artificial</option>
+                                <option value="urban">Man Made - Urban</option>
+                                <option value="marriage">Marriage</option>
+                                <option value="nature">Nature</option>
+                                <option value="no_people">No People</option>
+                                <option value="outdoor">Outdoor</option>
+                                <option value="party">Party</option>
+                                <option value="people">People</option>
+                                <option value="snow">Snow</option>
+                            </datalist>
+                        </td>
+                        <td>
+                            <a href="#"><i class="fa fa-search" id="searchButton" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <section id="query"></section>
+        <section id="tools">
+            <p class="mb-1 mx-3">Pesquisa por cor:</p>
+            <div class="d-flex flex-wrap mx-5">
+                <button id="red" class="btn btn-1"></button>
+                <button id="orange" class="btn btn-2"></button>
+                <button id="yellow" class="btn btn-3"></button>
+                <button id="green" class="btn btn-4"></button>
+                <button id="Blue-green" class="btn btn-5"></button>
+                <button id="blue" class="btn btn-6"></button>
+                <button id="purple" class="btn btn-7"></button>
+                <button id="pink" class="btn btn-8"></button>
+                <button id="white" class="btn btn-9"></button>
+                <button id="grey" class="btn btn-10"></button>
+                <button id="black" class="btn btn-11"></button>
+                <button id="brown" class="btn btn-12"></button>
+                <div class="ms-auto mb-2">
+                    <label class="mb-0">
+                        <input type="checkbox" id="similarImagesCheckbox"> Imagem Semelhante
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section id="visualization" class="mt-4">
+            <canvas id="canvas" width="1280" height="800">
+                Your browser doesn't recognize the canvas element
+            </canvas>
+        </section>
+
+        <section id="loadScreen" class="mt-4">
+            <div class="loading-wrapper">
+                <div class="center">
+                    <div class="ring"></div>
+                    <span>Loading...</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="custom-baseSite">
+        <div>
+            &copy;2023-2024 Copyright | Fábio Pestana & Miguel Alcobia
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarToggler = document.querySelector(".navbar-toggler");
+        
+            if (navbarToggler) {
+                navbarToggler.addEventListener("click", function () {
+                    navbarToggler.classList.toggle("change");
+                });
+            }
+        });
+    </script>
+    <script>
+        window.onload = main;
+    </script>
+</body>
+
+</html>
