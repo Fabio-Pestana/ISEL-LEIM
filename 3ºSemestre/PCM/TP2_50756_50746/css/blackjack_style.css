@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(41, 4, 4);
+    font-family: 'Girassol', sans-serif;
+}
+
+img{
+    min-height: 150px;
+    height: 30vh;
+    width: auto;
+    margin: 0 -40px;
+}
+  
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.BlackJack_table{
+    background-color: green;
+}
+
+.separacao{
+    height: 5px;
+    background-color: rgb(253, 186, 0);
+}
