@@ -25,5 +25,4 @@ MAE/
 > Circuito Prince George F1 Leste, londres, áfrica sul
 
 
-![Circuito](MAE/CarRace_A50756_LEIM11D/Circuito.jpeg)
-
+![Circuito](CarRace_A50756_LEIM11D/Circuito.jpeg)
