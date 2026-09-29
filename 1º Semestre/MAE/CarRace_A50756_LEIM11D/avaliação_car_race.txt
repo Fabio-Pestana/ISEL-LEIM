@@ -1,0 +1,17 @@
+Nome: Fábio Pestana
+Número de aluno: A50756
+Turma: LEIM 11D
+
+Nota do car race: 15/16
+
+Parametros de avaliação feitos:
+
+Parametrizações do objeto pelo percurso--> 10 valores
+Escrever as velocidades--> 2/1 valores (pois não sei se foi bem executada)
+Objeto sempre virado para a frente --> 2 valores
+Outros detalhes: adicionei música --> 2 valores
+
+A meu ver acho que mereço 15 ou 16 porque executei as parametrizações do objeto ao longo do meu percurso (10 valores),
+coloquei no canto superior esquerdo a velocidade (de baixo do tempo, a preto), no entanto não sei se este parametro foi 
+bem executado (1 ou 2 valores), no meu car race eu coloquei o meu carro sempre virado para a frente (2 valores) e como 
+detalhe extra, eu coloquei uma música de um jogo arcade - Sonic The Hedgehog (2 valores).
