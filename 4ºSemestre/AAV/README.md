@@ -174,24 +174,6 @@ Outros detalhes:
 
 ---
 
-## Estrutura
-
-```
-AAV/
-├── README.md
-├── imagens/                   # Capturas de ecrã usadas no README
-├── [Pasta do projeto Unity]/
-│   └── Assets/
-│       └── Scripts/
-│           ├── playerScript.cs
-│           ├── SkeletonAi.cs
-│           ├── NPC.cs
-│           └── ...
-└── [Relatório / Enunciado]
-```
-
----
-
 ## Tecnologias utilizadas
 
 - Unity
