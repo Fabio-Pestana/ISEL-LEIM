@@ -1,0 +1,2 @@
+set pcname VPCS
+ip 10.2.8.4 10.2.8.1 29
