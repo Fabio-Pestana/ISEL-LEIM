@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <title>Othello</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-play">Play Othello</h1>
+    </header>
+
+    <main class="login">
+        <h1 class="text">Register</h1>
+        <form id="registerForm" method="POST" action="RegisterServlet" onsubmit="prepareImage(event)">
+            <label for="username">Username: </label>
+			<input class="display" type="text" id="username" name="username" placeholder="Enter your Username" required minlength="4" maxlength="10" pattern="[A-Za-z0-9_\-]+">
+
+            <label for="password">Password: </label>
+            <input class="display" type="password" id="password" name="password" placeholder="Enter your Password" required>
+
+            <label for="birthdate">Birthdate: </label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="nationality">Nationality: </label>
+            <input type="text" id="nationality" name="nationality" placeholder="Enter your Nationality" required>
+
+            <label for="picture">Profile Picture File: </label>
+            <input type="file" id="picture" name="picture" accept="image/jpeg">
+			
+			<input type="hidden" id="pictureBase64" name="pictureBase64">
+
+            <div class="wrap">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            &copy;2024 Copyright | Fábio Pestana & Miguel Alcobia & João Ramos 
+        </div>
+    </footer>
+
+    <script>
+		function prepareImage(event) {
+		            event.preventDefault();
+		
+		            let fileInput = document.getElementById('picture');
+					let file = fileInput.files[0];
+		
+		            if (file) {
+						let reader = new FileReader();
+		                reader.onload = function () {
+							let imageData = reader.result;
+		
+		                    // Remove o prefixo "data:image/jpeg;base64,"
+							let base64Data = imageData.substring(imageData.indexOf(',') + 1);
+		
+		                    document.getElementById('pictureBase64').value = base64Data;
+		                    document.getElementById('registerForm').submit();
+		                }
+		                reader.readAsDataURL(file);
+		            } else {
+		                alert("Erro");
+		            }
+		        }
+    </script>
+</body>
+
+</html>

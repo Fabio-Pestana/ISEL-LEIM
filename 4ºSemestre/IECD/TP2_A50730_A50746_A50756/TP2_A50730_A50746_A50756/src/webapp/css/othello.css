@@ -1,0 +1,37 @@
+header {
+    margin-bottom: 20px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-info-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+footer {
+    background-color: #494d57;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}

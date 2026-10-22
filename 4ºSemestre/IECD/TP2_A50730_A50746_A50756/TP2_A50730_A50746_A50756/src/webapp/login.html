@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <link rel="stylesheet" href="css/login.css">
+   <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+   <title>Othello</title>
+</head>
+
+<body>
+   <header>
+       <h1 class="text-play">Play Othello</h1>
+   </header>
+
+   <main class="login">
+       <h1 class="text">Login</h1>
+	<form method="POST" action="LoginServlet">
+		<label for="username">Username: </label>
+		<input class="display" type="text" id="username" name="username" placeholder="Enter your Username" required>
+
+		<label for="password">Password: </label>
+		<input class="display" type="password" id="password" name="password" placeholder="Enter your Password" required>
+		
+		<div class="wrap">
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</div>
+	</form>
+
+    <div>Sign in 
+		<a href="register.html" class="account-link">
+			Create an account
+		</a>
+    </div>
+   </main>
+   <footer>
+       <div class="footer-text">
+           &copy;2024 Copyright | Fábio Pestana & Miguel Alcobia & João Ramos
+       </div>
+     </footer>
+</body>
+
+</html>
