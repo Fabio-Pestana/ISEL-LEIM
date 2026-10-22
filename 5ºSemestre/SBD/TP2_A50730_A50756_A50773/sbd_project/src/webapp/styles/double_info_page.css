@@ -1,0 +1,121 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: 'Play', sans-serif;
+	line-height: 1.5;
+	min-height: 100vh;
+	background: #676e7c;
+	flex-direction: column;
+	margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+	align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+main {
+    flex-grow: 1;
+    flex-basis: 50%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.condutor {
+    flex-basis: 50%;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button, .button-link {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #0056b3;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button-link {
+    background-color: #0056b3;
+    color: white;
+}
+
+.button-link i {
+    margin-left: 10px;
+}
+
+.text-play {
+    text-align: center;
+    color: #ffffff;
+}
+
+.text {
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+    background-color: #494d57;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+button:hover, .button-link:hover {
+    background-color: #003976;
+}
+
+.turn-back {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.turn-back:hover {
+    text-decoration: underline;
+    color: #003976;
+}
