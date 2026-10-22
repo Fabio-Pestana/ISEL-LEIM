@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Definição do tipo MyImage como string -->
+  <xs:simpleType name="MyImageType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+  <!-- Definição do tipo para data -->
+  <xs:simpleType name="LocalDateType">
+    <xs:restriction base="xs:date"/>
+  </xs:simpleType>
+
+  <!-- Definição do tipo para username -->
+  <xs:simpleType name="UsernameType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9_-]{4,10}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definição do tipo para senha -->
+  <xs:simpleType name="PasswordType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+  <!-- Definição do tipo para nacionalidade -->
+  <xs:simpleType name="NationalityType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+  <!-- Definição do tipo para vitórias, derrotas e tempo de jogo -->
+  <xs:simpleType name="StatisticsType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+
+  <!-- Definição do tipo para tempo de jogo -->
+  <xs:simpleType name="GameTimeType">
+    <xs:restriction base="xs:long"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="GamesType">
+    <xs:restriction base="xs:long"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="timeAverageInGameType">
+    <xs:restriction base="xs:double"/>
+  </xs:simpleType>
+
+  <!-- Definição do tipo User -->
+  <xs:complexType name="UserType">
+    <xs:sequence>
+      <xs:element name="username" type="UsernameType"/>
+      <xs:element name="password" type="PasswordType"/>
+      <xs:element name="profilePic" type="MyImageType"/>
+      <xs:element name="nationality" type="NationalityType"/>
+      <xs:element name="birthdate" type="LocalDateType"/>
+      <xs:element name="victories" type="StatisticsType"/>
+      <xs:element name="defeats" type="StatisticsType"/>
+      <xs:element name="gameTime" type="GameTimeType"/>
+      <xs:element name="games" type="GamesType"/>
+      <xs:element name="timeAverageInGame" type="timeAverageInGameType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Definição do elemento root -->
+  <xs:element name="users">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="user" type="UserType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

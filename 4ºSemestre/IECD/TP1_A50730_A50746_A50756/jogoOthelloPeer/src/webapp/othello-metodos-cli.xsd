@@ -1,0 +1,195 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="metodo" type="metodoType">
+	</xs:element>
+	
+	<xs:complexType name="metodoType">
+		<xs:choice>
+			<xs:element type="iniciarType" name="iniciar">
+			</xs:element>
+			
+			<xs:element type="obterType" name="obter">
+			</xs:element>
+			
+			<xs:element type="jogarType" name="jogar">
+			</xs:element>
+			
+			<xs:element type="userType" name="user">
+			</xs:element>
+			
+			<xs:element type="loginType" name="login">
+			</xs:element>
+			
+			<xs:element type="perfilType" name="perfil">
+			</xs:element>
+			
+			<xs:element type="changePassType" name="changePass">
+			</xs:element>
+			
+			<xs:element type="changePicType" name="changePic">
+			</xs:element>
+			
+			<xs:element type="updateUserType" name="updateUser">
+			</xs:element>
+			
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="iniciarType">
+		<xs:sequence>
+			<xs:element type="jogadorType" name="jogador"
+				minOccurs="1">
+			</xs:element>
+		</xs:sequence>
+		
+		<xs:attribute type="xs:token" name="nickname"
+			use="required">
+		</xs:attribute>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="loginType">
+		
+		<xs:attribute type="xs:boolean" name="value"
+			use="required">
+		</xs:attribute>
+		
+	</xs:complexType>
+	
+	<xs:complexType name="userType"/>
+	
+	<xs:complexType name="obterType">
+		<xs:sequence>
+			<xs:element type="tabuleiroType" name="tabuleiro"
+				minOccurs="1">
+			</xs:element>
+		</xs:sequence>
+		
+		
+	</xs:complexType>
+	
+	<xs:complexType name="jogarType">
+		<xs:attribute type="jogadaType" name="linha" use="required">
+		</xs:attribute>
+		
+		<xs:attribute type="jogadaType" name="coluna" use="required">
+		</xs:attribute>
+	</xs:complexType>
+	
+	<xs:simpleType name="jogadaType">
+		<xs:restriction base="xs:byte">
+			<xs:minInclusive value="1" />
+			<xs:maxInclusive value="8" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="simboloType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="X " />
+			<xs:enumeration value="O " />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="jogadorType">
+		<xs:sequence>
+			<xs:any processContents="skip" namespace="##any" minOccurs="0"
+				maxOccurs="unbounded" />
+		</xs:sequence>
+		
+		<xs:attribute type="simboloType" name="simbolo"
+			use="required">
+		</xs:attribute>
+	</xs:complexType>
+	
+	
+	
+	<xs:simpleType name="boardType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="X " />
+			<xs:enumeration value="O " />
+			<xs:enumeration value="  " />
+			<xs:enumeration value="p " />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	
+	<xs:simpleType name="estadoType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="VX" />
+			<xs:enumeration value="VO" />
+			<xs:enumeration value="EM" />
+			<xs:enumeration value="IV" />
+			<xs:enumeration value="SJ" /> 
+			<xs:enumeration value="ND" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="casaType">
+		<xs:attribute type="boardType" name="simbolo" use="required">
+		</xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="tabuleiroType">
+		<xs:sequence>
+			<xs:element type="casaType" name="casa" maxOccurs="64"
+				minOccurs="64">
+			</xs:element>
+		</xs:sequence>
+		
+		<xs:attribute type="estadoType" name="estado"
+			use="required">
+		</xs:attribute>
+		
+	</xs:complexType>
+	
+	<xs:complexType name="perfilType">
+		<xs:attribute type="xs:token" name="username" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="birthdate" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="profilePic" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="nationality" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="age" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="vitorias" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="derrotas" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="tempo" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="jogos" use="required">
+		</xs:attribute>
+		<xs:attribute type="xs:token" name="timeAverageInGame" use="required">
+		</xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="changePassType">
+		
+		<xs:attribute type="xs:boolean" name="value"
+			use="required">
+		</xs:attribute>
+		
+	</xs:complexType>
+	
+	<xs:complexType name="changePicType">
+		
+		<xs:attribute type="xs:boolean" name="value"
+			use="required">
+		</xs:attribute>
+		
+	</xs:complexType>
+	
+	<xs:complexType name="updateUserType">
+		
+		<xs:attribute type="xs:boolean" name="value"
+			use="required">
+		</xs:attribute>
+		
+	</xs:complexType>
+</xs:schema>
+
+
+
+
+

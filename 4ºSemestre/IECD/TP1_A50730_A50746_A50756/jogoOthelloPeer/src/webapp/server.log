@@ -1,0 +1,66 @@
+Atende o protocolo de descoberta no porto: 5026...
+Servidor TCP concorrente iniciado...
+Aguarda ligação no porto: 5025...
+Descoberta: espera por mensagens TCP no porto:5026
+Espera por um Jogador...
+Descoberta: espera por mensagens UDP no porto: 5026
+Aceitou ligação do Jogador: Socket[addr=/127.0.0.1,port=53615,localport=5025]
+Espera por um Jogador...
+Recebi -> <metodo><login nickname='Teste5' senha='12345'/></metodo>
+----- Dados do Utilizador -----
+Nome de utilizador: Teste5
+Senha: 6baad6f126fa53233f5120dd32225d4a9eeaea26dce58789f0b3b6efcdb0dadb
+Idade: 23
+Nacionalidade: portuguesa
+---------------------------------------------------
+Recebi -> <metodo><perfil username='Teste5'/></metodo>
+----- Dados do Utilizador -----
+Nome de utilizador: Teste5
+Senha: 6baad6f126fa53233f5120dd32225d4a9eeaea26dce58789f0b3b6efcdb0dadb
+Idade: 23
+Nacionalidade: portuguesa
+---------------------------------------------------
+Recebi -> <metodo><iniciar nickname='Teste5'/></metodo>
+   Jogador 'X ': Socket[addr=/127.0.0.1,port=53615,localport=5025]
+   Jogador 'X ': Teste5
+----- Dados do Utilizador -----
+Nome de utilizador: Teste5
+Senha: 6baad6f126fa53233f5120dd32225d4a9eeaea26dce58789f0b3b6efcdb0dadb
+Idade: 23
+Nacionalidade: portuguesa
+---------------------------------------------------
+Autenticação/login do utilizador 'Teste5' realizado com sucesso!
+TCP: recebeu mensagem de descoberta de:/192.168.1.81:53676
+UDP: recebeu mensagem de descoberta de:/192.168.1.81:65175
+Descoberta: espera por mensagens TCP no porto:5026
+Descoberta: espera por mensagens UDP no porto: 5026
+Aceitou ligação do Jogador: Socket[addr=/192.168.1.81,port=53878,localport=5025]
+Espera por um Jogador...
+Recebi -> <metodo><login nickname='Fabio' senha='123456'/></metodo>
+----- Dados do Utilizador -----
+Nome de utilizador: Fabio
+Senha: 49dc52e6bf2abe5ef6e2bb5b0f1ee2d765b922ae6cc8b95d39dc06c21c848f8c
+Idade: 20
+Nacionalidade: espanhola
+---------------------------------------------------
+Recebi -> <metodo><perfil username='Fabio'/></metodo>
+----- Dados do Utilizador -----
+Nome de utilizador: Fabio
+Senha: 49dc52e6bf2abe5ef6e2bb5b0f1ee2d765b922ae6cc8b95d39dc06c21c848f8c
+Idade: 20
+Nacionalidade: espanhola
+---------------------------------------------------
+Recebi -> <metodo><iniciar nickname='Fabio'/></metodo>
+   Jogador 'O ': Socket[addr=/192.168.1.81,port=53878,localport=5025]
+   Jogador 'O ': Fabio
+----- Dados do Utilizador -----
+Nome de utilizador: Fabio
+Senha: 49dc52e6bf2abe5ef6e2bb5b0f1ee2d765b922ae6cc8b95d39dc06c21c848f8c
+Idade: 20
+Nacionalidade: espanhola
+---------------------------------------------------
+Autenticação/login do utilizador 'Fabio' realizado com sucesso!
+Iniciou a Thread (44) do servidor dedicado:
+Servidor dedicado: terminou o jogo (Cannot invoke "String.length()" because "s" is null)!
+Servidor dedicado: terminou a Thread (44) do servidor dedicado!
+>>>Saiu do servidor devido ao modo de jogo único!
