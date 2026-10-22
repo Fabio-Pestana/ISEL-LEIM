@@ -5,7 +5,7 @@ Projeto desenvolvido na unidade curricular **Animação em Ambientes Virtuais** 
 **Ninja Adventure: The Skeletons' Curse** é um **jogo 3D em Unity (C#)**, em terceira pessoa, onde um ninja explora uma vila, interage com NPCs, obtém uma espada e enfrenta esqueletos para quebrar a maldição.
 
 - **Aluno:** Fábio Pestana — 50756
-- **Docente responsável:** [Nome do docente]
+- **Docente responsável:** Hugo Cordeiro
 
 ![Menu principal](imagens/menu_principal.png)
 
