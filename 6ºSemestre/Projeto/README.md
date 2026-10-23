@@ -44,15 +44,19 @@ O projeto foi inspirado em *Soul Knight* (ciclo de jogo), *Nuclear Throne* (pers
 ### Personagens, inimigos e opções
 
 ![Personagens jogáveis: Mago, Guerreiro e Clérigo](Imagens/Personagens%20jogaveis.png)
+
 *Classes jogáveis: Mago, Guerreiro e Clérigo.*
 
 ![Esqueletos](Imagens/Mobs.png)
+
 *Inimigos base: esqueletos (versão simples e versão com espada longa e combo).*
 
 ![Boss Minotauro](Imagens/Boss.png)
+
 *Boss: Minotauro, com duas fases.*
 
 ![Menu de opções](Imagens/Options.png)
+
 *Menu de opções com controlos de teclado e rato, volume e guardar sessão.*
 
 ---
