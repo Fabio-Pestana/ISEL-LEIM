@@ -1,0 +1,6 @@
+Previamente ao desenvolvimento do jogo, foi criada uma scene de testes das bibliotecas para o sistema multiplayer,
+ a partir da qual foram geradas duas builds diferentes, com o objetivo de testar o sistema multiplataforma.
+A scene continha uma UI simples que permitia que até três jogadores se conectassem e controlassem cápsulas num pequeno espaço.
+
+Dado ao facto que essa build serviu de base para o desenvolvimento do jogo, o seu código ainda continua presente nos
+ códigos atuais (LobbyManager, RelayManager, ManagerUI), presentes na pasta da implementação.
