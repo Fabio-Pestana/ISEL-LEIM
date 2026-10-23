@@ -1,0 +1,13 @@
+﻿.gradle/
+build/
+out/
+.idea/
+*.iml
+local.properties
+google-services.json
+bin/
+target/
+.settings/
+.classpath
+.project
+node_modules/
