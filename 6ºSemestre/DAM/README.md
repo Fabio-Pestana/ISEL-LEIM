@@ -1,4 +1,4 @@
-# Desenvolvimento de Aplicações Móveis - Trabalhos Práticos e Projeto Final
+# Desenvolvimento de Aplicações Móveis - Trabalhos Práticos e Projeto
 
 Trabalhos da unidade curricular de **Desenvolvimento de Aplicações Móveis** (DAM) de LEIM, no ISEL, ano letivo 2024/2025.
 
